@@ -47,7 +47,7 @@ LANG = {
         "scenario": "Сценарий",
         "scenarios": {"base": "Базовый", "optimistic": "Оптимистичный", "pessimistic": "Пессимистичный"},
         # Tabs
-        "tabs": ["Обзор", "Доходы", "Расходы", "Сценарии", "Исследование рынка", "Power BI", "Маркетинговая стратегия", "Стратегия продаж"],
+        "tabs": ["Маркетинговая стратегия", "Стратегия продаж", "Обзор", "Доходы", "Расходы", "Сценарии", "Исследование рынка", "Power BI"],
         # Tab 1
         "total_revenue": "Выручка",
         "total_profit": "Прибыль",
@@ -663,7 +663,7 @@ LANG = {
         "salary_tax": "Salary Tax (%)",
         "scenario": "Scenario",
         "scenarios": {"base": "Base", "optimistic": "Optimistic", "pessimistic": "Pessimistic"},
-        "tabs": ["Overview", "Revenue", "Expenses", "Scenarios", "Market Research", "Power BI", "Marketing Strategy", "Sales Strategy"],
+        "tabs": ["Marketing Strategy", "Sales Strategy", "Overview", "Revenue", "Expenses", "Scenarios", "Market Research", "Power BI"],
         "total_revenue": "Revenue",
         "total_profit": "Profit",
         "npv": "NPV (10%)",
@@ -1259,8 +1259,8 @@ _KM_OVERRIDES = {
     "scenario": "Scenario",
     "scenarios": {"base": "មូលដ្ឋាន", "optimistic": "សុទិដ្ឋិនិយម", "pessimistic": "ទុទិដ្ឋិនិយម"},
     # Tabs
-    "tabs": ["ទិដ្ឋភាពទូទៅ", "ប្រាក់ចំណូល", "ការចំណាយ", "Scenarios",
-             "ការស្រាវជ្រាវទីផ្សារ", "Power BI", "យុទ្ធសាស្ត្រទីផ្សារ", "យុទ្ធសាស្ត្រលក់"],
+    "tabs": ["យុទ្ធសាស្ត្រទីផ្សារ", "យុទ្ធសាស្ត្រលក់", "ទិដ្ឋភាពទូទៅ", "ប្រាក់ចំណូល",
+             "ការចំណាយ", "Scenarios", "ការស្រាវជ្រាវទីផ្សារ", "Power BI"],
     # Tab 1
     "total_revenue": "ប្រាក់ចំណូល",
     "total_profit": "ប្រាក់ចំណេញ",
@@ -1422,7 +1422,10 @@ st.title(t["title"])
 st.markdown(t["subtitle_tpl"].format(n=n_years))
 
 # --- Tabs ---
-tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.tabs(t["tabs"])
+# Marketing & Sales come first in the tab bar; with-blocks below keep their original
+# numbering (tab1 = Overview body, tab7 = Marketing body, etc.) by reordering
+# the unpacking — a one-line change instead of moving large chunks of UI code.
+tab7, tab8, tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(t["tabs"])
 
 # ============================================================
 # TAB 1: OVERVIEW
