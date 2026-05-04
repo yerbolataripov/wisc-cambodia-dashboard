@@ -1,0 +1,49 @@
+
+-- ============================================
+-- DAX Measures for Cambodia School Financial Model
+-- Import these into Power BI Desktop
+-- ============================================
+
+-- REVENUE MEASURES
+Total Revenue = SUM(PnL_Annual[Revenue])
+Total Expenses = SUM(PnL_Annual[Expenses])
+Total Profit = SUM(PnL_Annual[Profit])
+Profit Margin = DIVIDE([Total Profit], [Total Revenue], 0)
+
+-- YoY Revenue Growth
+Revenue YoY Growth =
+VAR CurrentYear = MAX(PnL_Annual[Year])
+VAR CurrentRevenue = CALCULATE([Total Revenue], PnL_Annual[Year] = CurrentYear)
+VAR PriorRevenue = CALCULATE([Total Revenue], PnL_Annual[Year] = CurrentYear - 1)
+RETURN DIVIDE(CurrentRevenue - PriorRevenue, PriorRevenue, 0)
+
+-- ENROLLMENT MEASURES
+Total Students = MAX(PnL_Annual[Students])
+Capacity Utilization = DIVIDE(MAX(PnL_Annual[Students]), MAX(Growth[Max_Capacity]), 0)
+
+-- COST MEASURES
+Cost Per Student = DIVIDE([Total Expenses], [Total Students], 0)
+Revenue Per Student = DIVIDE([Total Revenue], [Total Students], 0)
+
+-- KPI CARDS
+NPV = MAX(KPI_Summary[NPV])
+ROI = MAX(KPI_Summary[ROI])
+Breakeven Year = MIN(KPI_Summary[Breakeven_Year])
+
+-- STAFFING
+Student Teacher Ratio = DIVIDE(MAX(Staffing[Students]), MAX(Staffing[Teachers]), 0)
+Total Staff = MAX(Staffing[Total_Staff])
+
+-- CONDITIONAL FORMATTING
+Profit Color =
+IF([Total Profit] > 0, "#2ecc71", "#e74c3c")
+
+Margin Color =
+IF([Profit Margin] > 0.5, "#2ecc71",
+IF([Profit Margin] > 0.2, "#f39c12", "#e74c3c"))
+
+-- SCENARIO COMPARISON
+Base Profit = CALCULATE([Total Profit], PnL_Annual[Scenario] = "Base")
+Optimistic Profit = CALCULATE([Total Profit], PnL_Annual[Scenario] = "Optimistic")
+Pessimistic Profit = CALCULATE([Total Profit], PnL_Annual[Scenario] = "Pessimistic")
+Profit Range = [Optimistic Profit] - [Pessimistic Profit]

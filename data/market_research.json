@@ -1,0 +1,622 @@
+{
+  "source": "World Bank API, Wikipedia, verified 2026-03",
+  "macro": {
+    "population": 17640000,
+    "population_year": 2024,
+    "gdp_usd": 46350000000,
+    "gdp_per_capita_usd": 2628,
+    "gni_per_capita_usd": 2550,
+    "education_gdp_pct": 2.18,
+    "education_spend_usd": 923000000,
+    "urbanization_pct": 40.87,
+    "fertility_rate": 2.58,
+    "gdp_growth_pct": 5.5
+  },
+  "demographics": {
+    "population_0_14_pct": 29.79,
+    "population_0_14_abs": 5250000,
+    "school_age_6_18": 4200000,
+    "median_age": 26,
+    "literacy_rate_pct": 87.7
+  },
+  "education": {
+    "primary_enrollment_gross_pct": 109.0,
+    "secondary_enrollment_gross_pct": 58.8,
+    "private_primary_share_pct": 5.68,
+    "private_primary_share_est_2024_pct": 7.0,
+    "private_share_cagr_pct": 16.8,
+    "academic_year": "October to August",
+    "break_months": ["August", "September"],
+    "structure": "6+3+3 (Primary 1-6, Lower Sec 7-9, Upper Sec 10-12)",
+    "curriculum": "MoEYS national curriculum",
+    "key_exams": ["Grade 9 National Exam", "Grade 12 BAC II"]
+  },
+  "private_share_trend": {
+    "2010": 1.40,
+    "2013": 2.28,
+    "2015": 3.39,
+    "2017": 4.24,
+    "2018": 5.21,
+    "2019": 5.68
+  },
+  "secondary_enrollment_trend": {
+    "2017": 48.9,
+    "2019": 49.7,
+    "2020": 51.8,
+    "2022": 55.1,
+    "2024": 58.8
+  },
+  "competition": {
+    "segments": [
+      {"name": "Budget Local", "tuition_range": "200-800", "schools_count": "3000+", "class_size": "15-25"},
+      {"name": "Mid-Range Local", "tuition_range": "800-2500", "schools_count": "500-800", "class_size": "25-35"},
+      {"name": "Premium Local", "tuition_range": "2500-5000", "schools_count": "100-200", "class_size": "20-30"},
+      {"name": "International", "tuition_range": "5000-20000+", "schools_count": "50-80", "class_size": "15-20"}
+    ],
+    "direct_competitors": [
+      {"name": "East-West International (EWIS)", "tuition": "4,320-7,040", "grades": "K-12", "curriculum": "Cambridge + MoEYS", "accreditation": "WASC", "location": "BKK3", "strengths": "Bilingual leader, WASC accredited, 25+ nationalities", "students": 465},
+      {"name": "Footprints International", "tuition": "2,706-6,250", "grades": "K-12", "curriculum": "Cambridge + MoEYS", "accreditation": "WASC", "location": "2 campuses", "strengths": "Bilingual Khmer/English/Mandarin, WASC, 1000+ students", "students": 1000},
+      {"name": "Paragon International", "tuition": "4,650-13,620", "grades": "K-12", "curriculum": "Cambridge (CAIE)", "accreditation": "CIS", "location": "1 campus (new 2025)", "strengths": "CIS accredited, ex-Zaman, 1100+ students, since 1997", "students": 1100},
+      {"name": "The Westline School", "tuition": "1,000", "grades": "K-12", "curriculum": "MoEYS + English + Chinese", "accreditation": "MoEYS", "location": "19 campuses (WEG)", "strengths": "Largest by students (13K+), affordable, trilingual", "students": 13000},
+      {"name": "BELTEI International", "tuition": "300-800", "grades": "K-12", "curriculum": "MoEYS + ESL (American)", "accreditation": "MoEYS, ISO 9001", "location": "26 campuses PP", "strengths": "Largest campus network, own university, budget", "students": 10000},
+      {"name": "Home of English", "tuition": "4,611-4,862", "grades": "K-12", "curriculum": "American + MoEYS", "accreditation": "IB, MoEYS", "location": "4 campuses PP", "strengths": "IB accredited, 40+ nationalities, since 1997", "students": 500},
+      {"name": "CIA First International", "tuition": "3,950-7,550", "grades": "K-12", "curriculum": "American (AP)", "accreditation": "WASC, AP", "location": "4 campuses PP", "strengths": "AP Capstone (first in Cambodia), 5500+ students", "students": 5500}
+    ],
+    "international_competitors": [
+      {"name": "ISPP", "tuition": "9,500-29,000", "curriculum": "IB", "strengths": "#1 international, nonprofit, embassy families"},
+      {"name": "Northbridge (Nord Anglia)", "tuition": "8,000-22,000", "curriculum": "British", "strengths": "Global network, premium facilities"},
+      {"name": "iCAN British", "tuition": "5,000-13,000", "curriculum": "British", "strengths": "British curriculum, growing"},
+      {"name": "Canadian International (CIS)", "tuition": "6,600-19,400", "curriculum": "Canadian (Alberta)", "strengths": "3 campuses, strong reputation"},
+      {"name": "Logos International", "tuition": "4,000-8,000", "curriculum": "American", "strengths": "Christian school, community"}
+    ],
+    "wisc_position": {
+      "tuition": 4000,
+      "segment": "Upper Premium Local",
+      "direct_competitors_count": 7,
+      "price_vs_direct": "Top 30% of direct competitors",
+      "differentiators": ["Bilingual Khmer+English", "Small class sizes", "Modern facilities", "STEM focus", "Russian language option"]
+    }
+  },
+  "phnom_penh_private": {
+    "private_schools": 519,
+    "public_schools": 251,
+    "private_schools_nationwide": 2295,
+    "phnom_penh_share_pct": 22.6,
+    "students_private_nationwide_2019": 218357,
+    "private_schools_2019": 1222,
+    "students_private_nationwide_est_2024": 450000,
+    "students_private_phnom_penh_est_2024": 120000,
+    "source": "MoEYS 2024-2025, Education Cambodia, CEF Cambodia, B2B AsiaNews",
+    "nationwide_by_level": {
+      "source": "MoEYS EMIS 2022-2023, CEF Cambodia 2023",
+      "schools": {
+        "primary": 8067,
+        "lower_secondary": 1340,
+        "upper_secondary": 816,
+        "kindergarten": 8607,
+        "total": 18830
+      },
+      "private_schools_by_level": {
+        "source": "MoEYS 2021-2022, CEF Cambodia",
+        "secondary_private": 323,
+        "secondary_public": 1812,
+        "secondary_total": 2135,
+        "international_schools": 147,
+        "international_students": 40000
+      },
+      "students_nationwide": {
+        "source": "MoEYS EMIS 2022-2023, World Bank, ADB",
+        "primary_total": 2165000,
+        "lower_secondary_total": 720000,
+        "upper_secondary_total": 390000,
+        "total_k12": 3275000,
+        "private_all_levels_2019": 218357,
+        "private_all_levels_est_2024": 450000,
+        "private_share_primary_pct": 7.0,
+        "private_share_secondary_pct": 15.1
+      }
+    },
+    "phnom_penh_by_level": {
+      "source": "MoEYS 2024-2025, derived from national ratios and PP school counts",
+      "schools": {
+        "kindergarten_private": 120,
+        "primary_private": 195,
+        "lower_secondary_private": 120,
+        "upper_secondary_private": 84,
+        "total_private": 519,
+        "total_public": 251
+      },
+      "students_est_2024": {
+        "kindergarten": 12000,
+        "primary_grades_1_6": 55000,
+        "lower_secondary_7_9": 32000,
+        "upper_secondary_10_12": 21000,
+        "total": 120000
+      },
+      "students_by_grade_est": [
+        {"grade": "K", "students": 12000, "note": "Pre-school 3-5 years"},
+        {"grade": "1", "students": 11000, "note": "Highest intake, age 6"},
+        {"grade": "2", "students": 10000, "note": ""},
+        {"grade": "3", "students": 9500, "note": ""},
+        {"grade": "4", "students": 8500, "note": ""},
+        {"grade": "5", "students": 8000, "note": "Some transfer to public"},
+        {"grade": "6", "students": 8000, "note": "Primary completion"},
+        {"grade": "7", "students": 12000, "note": "New intake from public primary"},
+        {"grade": "8", "students": 10500, "note": ""},
+        {"grade": "9", "students": 9500, "note": "National exam, some drop out"},
+        {"grade": "10", "students": 8000, "note": "Significant drop after G9 exam"},
+        {"grade": "11", "students": 7000, "note": ""},
+        {"grade": "12", "students": 6000, "note": "BAC II exam, university prep"}
+      ],
+      "enrollment_rates": {
+        "primary_pct": 99.6,
+        "lower_secondary_pct": 75.2,
+        "upper_secondary_pct": 44.3,
+        "source": "MoEYS 2023-2024"
+      }
+    }
+  },
+  "teacher_salaries": {
+    "government_public": {"min": 250, "max": 350, "note": "MoEYS public school"},
+    "private_budget": {"min": 200, "max": 400, "note": "Budget local schools ($200-800/yr tuition)"},
+    "private_midrange": {"min": 350, "max": 700, "note": "Mid-range local ($800-2500/yr tuition)"},
+    "private_premium": {"min": 500, "max": 1200, "note": "Premium local ($2500-5000/yr tuition)"},
+    "foreign_english": {"min": 800, "max": 1200, "note": "Foreign ESL teachers, language academies"},
+    "international": {"min": 1500, "max": 2500, "note": "International schools, full benefits"},
+    "currency": "USD/month",
+    "source": "Glassdoor 2026, SalaryExplorer 2024, TEFL sources 2025"
+  },
+  "moeys_curriculum": {
+    "source": "MoEYS Curriculum Framework, UNESCO, verified 2026-03",
+    "overview": {
+      "structure": "6+3+3 (Primary 1-6, Lower Secondary 7-9, Upper Secondary 10-12)",
+      "academic_year": "October — August",
+      "break_months": "August — September",
+      "teaching_weeks": 35,
+      "lesson_duration_primary_min": 40,
+      "lesson_duration_secondary_min": 40,
+      "lesson_duration_upper_sec_min": 50,
+      "days_per_week_primary": 5,
+      "days_per_week_secondary": 6,
+      "periods_per_day_primary": 6,
+      "periods_per_day_secondary": 5,
+      "language_of_instruction": "Khmer",
+      "mandatory_for_private": true,
+      "private_can_add_extra": true
+    },
+    "primary_grades_1_3": {
+      "total_lessons_per_week": 27,
+      "subjects": [
+        {"subject": "Khmer Language", "lessons": 13},
+        {"subject": "Mathematics", "lessons": 7},
+        {"subject": "Science & Social Studies", "lessons": 3},
+        {"subject": "Physical & Health Education", "lessons": 2},
+        {"subject": "Local Life Skills", "lessons": 2}
+      ]
+    },
+    "primary_grades_4_6": {
+      "total_lessons_per_week": 27,
+      "subjects": [
+        {"subject": "Khmer Language", "lessons_g4": 10, "lessons_g5_6": 8},
+        {"subject": "Mathematics", "lessons": 6},
+        {"subject": "Science", "lessons_g4": 3, "lessons_g5_6": 4},
+        {"subject": "Social Studies & Arts", "lessons_g4": 4, "lessons_g5_6": 5},
+        {"subject": "Physical & Health Education", "lessons": 2},
+        {"subject": "Foreign Language (English)", "lessons": 2},
+        {"subject": "Local Life Skills", "lessons": 2}
+      ]
+    },
+    "lower_secondary_7_9": {
+      "total_lessons_per_week": 32,
+      "subjects": [
+        {"subject": "Khmer Language", "lessons": 6},
+        {"subject": "Mathematics", "lessons": 6},
+        {"subject": "Sciences (Physics, Chemistry, Biology, Earth)", "lessons": 6},
+        {"subject": "Social Studies (History, Geography, Civics)", "lessons": 6},
+        {"subject": "Foreign Language (English/French)", "lessons": 4},
+        {"subject": "Physical & Health Education", "lessons": 2},
+        {"subject": "ICT", "lessons": 2},
+        {"subject": "Arts Education", "lessons": 1},
+        {"subject": "Local Life Skills", "lessons": 2}
+      ]
+    },
+    "upper_secondary_10": {
+      "total_lessons_per_week": 30,
+      "subjects": [
+        {"subject": "Khmer Language", "lessons": 6},
+        {"subject": "Mathematics", "lessons": 6},
+        {"subject": "Sciences", "lessons": 6},
+        {"subject": "Social Studies", "lessons": 6},
+        {"subject": "Foreign Language (English/French)", "lessons": 4},
+        {"subject": "Physical & Health Education", "lessons": 2}
+      ]
+    },
+    "upper_secondary_11_12": {
+      "total_lessons_per_week": 30,
+      "compulsory": [
+        {"subject": "Khmer Literature", "lessons": 6},
+        {"subject": "Physical & Health Education", "lessons": 2},
+        {"subject": "Foreign Language (English or French)", "lessons": 4},
+        {"subject": "Mathematics (Basic or Advanced)", "lessons_basic": 4, "lessons_advanced": 8}
+      ],
+      "electives_note": "Students choose Science or Social Science track for remaining hours"
+    },
+    "key_exams": [
+      {"name": "Grade 9 National Exam", "description": "Lower secondary completion, mandatory"},
+      {"name": "Grade 12 BAC II", "description": "Upper secondary diploma, university entrance"}
+    ],
+    "teacher_requirements": {
+      "minimum_education": "Bachelor's degree",
+      "certification": "MoEYS teaching certificate",
+      "training_reform_2025": "Shift to 4-year teacher training program",
+      "existing_degree_holders": "1-year pedagogy program",
+      "language": "Khmer proficiency required",
+      "background_check": true
+    },
+    "private_school_rules": {
+      "must_follow_national_curriculum": true,
+      "khmer_language_mandatory": true,
+      "can_add_bilingual_programs": true,
+      "can_add_international_curriculum": true,
+      "moeys_license_required": true,
+      "annual_reporting": true,
+      "facility_inspection": true,
+      "min_classroom_standards": true
+    }
+  },
+  "social_media": {
+    "source": "DataReportal 2024, NapoleonCat, CambodiaMag, verified 2026-03",
+    "total_users": 14000000,
+    "penetration_pct": 77.9,
+    "platforms": [
+      {"name": "Facebook", "users_mln": 14.5, "penetration_pct": 80.0, "type": "social", "best_for": "Parent communities, school pages, ads, groups"},
+      {"name": "TikTok", "users_mln": 10.7, "penetration_pct": 59.5, "type": "social", "best_for": "Short video, school life, young parents 25-35"},
+      {"name": "Telegram", "users_mln": 11.0, "penetration_pct": 61.1, "type": "messenger", "best_for": "Parent groups, announcements, enrollment comms"},
+      {"name": "WhatsApp", "users_mln": 12.4, "penetration_pct": 69.1, "type": "messenger", "best_for": "Direct parent communication, rural areas"},
+      {"name": "Instagram", "users_mln": 1.65, "penetration_pct": 9.1, "type": "social", "best_for": "Visual branding, premium positioning, expat parents"},
+      {"name": "YouTube", "users_mln": 10.5, "penetration_pct": 58.3, "type": "video", "best_for": "School tours, teacher intros, long-form content"},
+      {"name": "LinkedIn", "users_mln": 0.78, "penetration_pct": 4.3, "type": "professional", "best_for": "Teacher recruitment, B2B partnerships"}
+    ],
+    "facebook_ads": {
+      "avg_cpc_usd": 0.05,
+      "avg_cpm_usd": 1.50,
+      "education_cpl_usd": 0.80,
+      "vs_us_discount_pct": 51,
+      "note": "Cambodia is one of cheapest FB ad markets globally"
+    }
+  },
+  "student_acquisition": {
+    "source": "Industry benchmarks, SchoolsCambodia, EnrollmentCatalyst",
+    "channels": [
+      {"channel": "Word of mouth / Referrals", "effectiveness_pct": 40, "cost": "Low", "note": "90% of parents trust peer recommendations, 4x conversion vs ads"},
+      {"channel": "Facebook (organic + ads)", "effectiveness_pct": 25, "cost": "Low-Medium", "note": "School page, parent groups, targeted ads by location/age"},
+      {"channel": "Open House / School Tour", "effectiveness_pct": 15, "cost": "Medium", "note": "On-campus events, 5+ touchpoints before enrollment decision"},
+      {"channel": "TikTok / YouTube content", "effectiveness_pct": 8, "cost": "Low", "note": "School life videos, teacher intros, student achievements"},
+      {"channel": "Online directories", "effectiveness_pct": 5, "cost": "Low", "note": "SchoolsCambodia.com, international-schools-database.com"},
+      {"channel": "Billboards / Print", "effectiveness_pct": 4, "cost": "High", "note": "Brand awareness in BKK1, Toul Kork, Sen Sok areas"},
+      {"channel": "Partnerships / Embassy", "effectiveness_pct": 3, "cost": "Low", "note": "Expat networks, corporate relocation packages"}
+    ]
+  },
+  "teacher_recruitment": {
+    "source": "Khmer24, BongThom, TeachAway, LinkedIn, Facebook Groups",
+    "channels": [
+      {"channel": "Facebook Groups", "target": "Local + Foreign", "cost": "Free", "note": "English Teachers in Cambodia, Expats in PP — most active channel"},
+      {"channel": "Khmer24.com", "target": "Local Khmer", "cost": "Free-Low", "note": "#1 local classifieds, Education/Training section"},
+      {"channel": "BongThom.com", "target": "Local Khmer", "cost": "Free-Low", "note": "Cambodia's premier job portal"},
+      {"channel": "CamHR.com", "target": "Local + Foreign", "cost": "Medium", "note": "Professional HR platform, premium listings"},
+      {"channel": "LinkedIn", "target": "Foreign + Senior", "cost": "Medium-High", "note": "780K users in Cambodia, best for experienced/management"},
+      {"channel": "Teach Away / Schrole", "target": "Foreign", "cost": "High", "note": "International teacher recruitment databases"},
+      {"channel": "Walk-in / Referral", "target": "Local", "cost": "Free", "note": "Common in PP and Siem Reap, teacher referral bonuses"},
+      {"channel": "University partnerships", "target": "Local junior", "cost": "Low", "note": "RUPP, IFL, AUPP — fresh graduate pipeline"}
+    ],
+    "best_hiring_months": ["June", "July", "August"],
+    "year_round_hiring": "Language schools and ESL positions"
+  },
+  "parent_persona": {
+    "source": "World Bank, PhnomPenhPost, Expat.com, CEIC Data, verified 2026-03",
+    "segments": [
+      {
+        "name": "Khmer Upper-Middle",
+        "share_pct": 45,
+        "household_income_usd": "1,500-3,000",
+        "profile": "Dual-income family, business owners or professionals, 30-45 years old",
+        "education_priority": "Bilingual (Khmer+English), exam results, university prep",
+        "decision_factors": ["Teaching quality", "English proficiency", "School reputation", "Exam results"],
+        "channels": ["Facebook", "Word of mouth", "Telegram groups"],
+        "location": "BKK1, BKK2, Toul Kork, Sen Sok, Chbar Ampov"
+      },
+      {
+        "name": "Khmer Affluent",
+        "share_pct": 25,
+        "household_income_usd": "3,000-10,000+",
+        "profile": "Business owners, government officials, 35-50 years old",
+        "education_priority": "International curriculum, overseas university path, prestige",
+        "decision_factors": ["Brand/prestige", "International accreditation", "Facilities", "Networking"],
+        "channels": ["Instagram", "Word of mouth", "Direct outreach"],
+        "location": "BKK1, Tonle Bassac, Diamond Island"
+      },
+      {
+        "name": "Expat Families",
+        "share_pct": 20,
+        "household_income_usd": "2,500-5,000+",
+        "profile": "NGO workers, diplomats, entrepreneurs, 30-50 years old",
+        "education_priority": "English-medium, recognized curriculum (Cambridge/IB), global mobility",
+        "decision_factors": ["Curriculum recognition", "English quality", "Community", "Safety"],
+        "channels": ["Expat forums", "Facebook groups", "Embassy networks", "Online directories"],
+        "location": "BKK1, Tonle Bassac, Toul Kork"
+      },
+      {
+        "name": "Khmer Aspirational",
+        "share_pct": 10,
+        "household_income_usd": "800-1,500",
+        "profile": "Single-income, skilled workers, first-gen private school, 28-40 years old",
+        "education_priority": "Better than public, English skills, safe environment",
+        "decision_factors": ["Affordability", "Location/transport", "English program", "Safety"],
+        "channels": ["Facebook", "TikTok", "Neighbors/relatives"],
+        "location": "Sen Sok, Meanchey, Chbar Ampov, outskirts"
+      }
+    ],
+    "common_traits": {
+      "avg_children": 2.3,
+      "decision_maker": "Mother (70-80%), Father consults",
+      "research_period_weeks": 4,
+      "touchpoints_before_enroll": 5,
+      "top_concern": "Quality of English teaching",
+      "deal_breaker": "Safety, distance, hidden fees"
+    }
+  },
+  "marketing_campaigns": {
+    "source": "Industry benchmarks, CamboDigital, Meta Ads Cambodia, verified 2026-03",
+    "funnel": {
+      "awareness": {"conversion_pct": 100, "description": "See ad/post/content"},
+      "interest": {"conversion_pct": 15, "description": "Click, visit page, watch video"},
+      "consideration": {"conversion_pct": 5, "description": "Fill form, request info, attend open house"},
+      "application": {"conversion_pct": 2.5, "description": "Submit application"},
+      "enrollment": {"conversion_pct": 1.5, "description": "Pay and enroll"}
+    },
+    "budget_model": {
+      "monthly_budget_usd": 6000,
+      "allocation": [
+        {"channel": "Facebook Ads", "pct": 30, "budget": 1800, "expected_leads": 2200, "note": "Geo-targeted BKK1/Toul Kork/Sen Sok, age 28-45, parents + lookalike audiences"},
+        {"channel": "TikTok Content + Ads", "pct": 20, "budget": 1200, "expected_leads": 1500, "note": "School life videos, teacher intros, paid promotion of top-performing content"},
+        {"channel": "Open House Events", "pct": 15, "budget": 900, "expected_leads": 80, "note": "2 events/month, premium venue setup, transport for families, 25-30% conversion"},
+        {"channel": "Referral Program", "pct": 10, "budget": 600, "expected_leads": 60, "note": "$300 tuition credit per enrolled referral, ambassador program"},
+        {"channel": "Google/SEO + Website", "pct": 10, "budget": 600, "expected_leads": 350, "note": "SEO, Google Ads, landing pages, blog, retargeting"},
+        {"channel": "Instagram + YouTube", "pct": 10, "budget": 600, "expected_leads": 200, "note": "Premium video content, school tours, expat + affluent targeting"},
+        {"channel": "Print/Outdoor/Events", "pct": 5, "budget": 300, "expected_leads": 60, "note": "Billboards BKK1/Toul Kork, sponsorship of family events"}
+      ],
+      "total_expected_leads": 4450,
+      "expected_enrollments_per_month": 25,
+      "cost_per_enrollment_usd": 240
+    },
+    "campaigns": [
+      {
+        "name": "Early Bird Enrollment",
+        "timing": "March-May",
+        "channel": "Facebook + Telegram",
+        "budget_pct": 25,
+        "goal": "Secure early enrollments with tuition discount",
+        "tactics": ["5-10% discount for early sign-up", "Countdown timer ads", "Parent testimonial videos", "Limited spots messaging"],
+        "kpi": "100+ enrollments"
+      },
+      {
+        "name": "Open House Campaign",
+        "timing": "April-June (monthly)",
+        "channel": "Facebook + TikTok + Telegram",
+        "budget_pct": 20,
+        "goal": "Drive campus visits, 25-30% visit-to-application rate",
+        "tactics": ["Campus tour livestream on Facebook", "Student-led TikTok tours", "Free snacks/gifts for attendees", "Follow-up email within 24h"],
+        "kpi": "100+ families per event"
+      },
+      {
+        "name": "Referral Wave",
+        "timing": "Year-round, peak May-July",
+        "channel": "Telegram groups + In-school",
+        "budget_pct": 10,
+        "goal": "Leverage existing parents, 4x conversion vs cold leads",
+        "tactics": ["$200 tuition credit per enrolled referral", "Parent Ambassador badges", "Referral leaderboard with prizes", "Exclusive preview events for ambassadors"],
+        "kpi": "60+ referral enrollments/year"
+      },
+      {
+        "name": "TikTok School Life",
+        "timing": "Year-round, 3-5 videos/week",
+        "channel": "TikTok + YouTube Shorts",
+        "budget_pct": 15,
+        "goal": "Brand awareness among young parents 25-35",
+        "tactics": ["Day-in-the-life student videos", "Teacher spotlight series", "English class highlights", "Before/after student progress"],
+        "kpi": "300K+ views/month, 1500+ followers/month"
+      },
+      {
+        "name": "Back to School",
+        "timing": "August-September",
+        "channel": "Facebook + Instagram + Outdoor",
+        "budget_pct": 15,
+        "goal": "Capture late enrollments and brand awareness for next year",
+        "tactics": ["First day of school content", "Parent community highlights", "Results/achievements showcase", "Billboard near schools"],
+        "kpi": "50+ late enrollments"
+      },
+      {
+        "name": "Exam Results Showcase",
+        "timing": "October-November",
+        "channel": "Facebook + Instagram",
+        "budget_pct": 15,
+        "goal": "Build credibility with Grade 9/12 exam results",
+        "tactics": ["Student success stories", "Comparison infographics", "University acceptance announcements", "Parent review videos"],
+        "kpi": "Brand trust, 500+ inquiries"
+      }
+    ],
+    "calendar_summary": {
+      "Jan-Feb": "Content creation, SEO optimization",
+      "Mar-May": "Early Bird campaign, Open House series",
+      "May-Jul": "Peak enrollment push, Referral Wave",
+      "Aug-Sep": "Back to School campaign, late enrollment",
+      "Oct-Nov": "Exam Results Showcase, brand building",
+      "Dec": "Year review, planning next year"
+    }
+  },
+  "launch_plan_180": {
+    "source": "WISC launch model, based on Cambodia market benchmarks",
+    "target_students": 180,
+    "period": "April — July",
+    "months": 4,
+    "tuition_usd": 4000,
+    "enrollment_fee_usd": 300,
+    "total_budget_usd": 46000,
+    "avg_monthly_budget_usd": 11500,
+    "cost_per_enrollment_usd": 256,
+    "monthly_plan": [
+      {
+        "month": "April",
+        "phase": "Launch & Awareness",
+        "budget_usd": 14000,
+        "target_enrollments": 25,
+        "cumulative": 25,
+        "channels": {
+          "Facebook Ads": 4500,
+          "TikTok Ads + Content": 3000,
+          "Open House (2x)": 2500,
+          "Google Ads + SEO": 1500,
+          "Instagram + YouTube": 1500,
+          "Print/Outdoor": 1000
+        },
+        "key_actions": ["Grand launch event", "School tour video series", "Early bird -10% discount", "Billboard campaign in 5 key areas", "Press release + media coverage"]
+      },
+      {
+        "month": "May",
+        "phase": "Peak Push",
+        "budget_usd": 14000,
+        "target_enrollments": 55,
+        "cumulative": 80,
+        "channels": {
+          "Facebook Ads": 4500,
+          "TikTok Ads + Content": 3000,
+          "Open House (3x)": 2500,
+          "Referral Program": 2000,
+          "Google Ads": 1000,
+          "Instagram + YouTube": 1000
+        },
+        "key_actions": ["3 Open House events (weekends)", "Referral launch: $300 credit", "Parent testimonial campaign", "Targeted ads by neighborhood", "Telegram parent group launch"]
+      },
+      {
+        "month": "June",
+        "phase": "Conversion Focus",
+        "budget_usd": 11000,
+        "target_enrollments": 55,
+        "cumulative": 135,
+        "channels": {
+          "Facebook Ads (retargeting)": 3500,
+          "TikTok Ads": 2000,
+          "Open House (2x)": 2000,
+          "Referral Program": 1500,
+          "Google Ads": 1000,
+          "Direct outreach": 1000
+        },
+        "key_actions": ["Retargeting warm leads", "Last chance early bird messaging", "1-on-1 campus tours", "Referral push with bonus prizes", "Expat community events"]
+      },
+      {
+        "month": "July",
+        "phase": "Urgency & Final Closing",
+        "budget_usd": 7000,
+        "target_enrollments": 45,
+        "cumulative": 180,
+        "channels": {
+          "Facebook Ads (urgency)": 2500,
+          "TikTok Content": 1500,
+          "Direct calls/WhatsApp": 1000,
+          "Referral bonuses": 1000,
+          "Open House (1x final)": 1000
+        },
+        "key_actions": ["Limited spots countdown", "Personal calls to all warm leads", "Final Open House 'last chance'", "Ambassador parent outreach", "Uniform/supplies preview event"]
+      }
+    ],
+    "kpis": {
+      "total_leads_needed": 12000,
+      "open_house_attendees": 500,
+      "referral_enrollments": 45,
+      "facebook_reach": 500000,
+      "tiktok_views": 1500000,
+      "website_visits": 25000,
+      "conversion_rate_pct": 1.5
+    },
+    "enrollment_risks": [
+      {
+        "risk": "No brand / track record",
+        "impact": "Critical",
+        "probability": "High",
+        "description": "New school with zero graduates, no exam results, no reviews — parents hesitate",
+        "mitigation": "Invest heavily in Open House events, offer trial classes, show teacher credentials, partner with known brands, get early testimonials from first enrolled families"
+      },
+      {
+        "risk": "Short enrollment window",
+        "impact": "High",
+        "probability": "High",
+        "description": "4 months is aggressive — most schools recruit over 6-12 months, parents need 4+ weeks to decide",
+        "mitigation": "Front-load budget in April-May, start pre-marketing in March, use urgency tactics (limited spots, early bird expiring), fast follow-up within 24h"
+      },
+      {
+        "risk": "Competition from established schools",
+        "impact": "High",
+        "probability": "High",
+        "description": "519 private schools in Phnom Penh already have loyal parent base, relationships, proven results",
+        "mitigation": "Position on unique differentiators (bilingual, small classes, modern facilities), target underserved areas (Sen Sok, Chbar Ampov), offer something competitors don't"
+      },
+      {
+        "risk": "MoEYS license delay",
+        "impact": "Critical",
+        "probability": "Medium",
+        "description": "License approval can take 2-6 months, cannot legally enroll students without it",
+        "mitigation": "Start license process immediately, engage consultant, prepare all documents in advance, have backup plan for conditional enrollment"
+      },
+      {
+        "risk": "Teacher hiring not ready",
+        "impact": "High",
+        "probability": "Medium",
+        "description": "Parents visit school, see no teachers — kills trust. Need 15-20 teachers for 180 students",
+        "mitigation": "Hire core team (5-8 teachers) before marketing launch, show teacher profiles in ads, feature teachers at Open House events"
+      },
+      {
+        "risk": "Facility not ready on time",
+        "impact": "Critical",
+        "probability": "Medium",
+        "description": "Construction/renovation delays mean Open House shows unfinished building — destroys credibility",
+        "mitigation": "Have at least 3-4 showcase classrooms ready by April, use 3D renders/virtual tours for incomplete areas, set realistic opening date"
+      },
+      {
+        "risk": "Price resistance at $4,000/yr",
+        "impact": "Medium",
+        "probability": "High",
+        "description": "Premium pricing in a market where mid-range is $800-2,500 — limits addressable market to top 10-15% of families",
+        "mitigation": "Clearly communicate value vs price, offer payment plans (monthly/quarterly), early bird discounts, sibling discounts, scholarship for 2-3 top students"
+      },
+      {
+        "risk": "Marketing fatigue / ad saturation",
+        "impact": "Medium",
+        "probability": "Medium",
+        "description": "Heavy ad spend in 4 months can lead to audience fatigue, rising CPL, declining CTR",
+        "mitigation": "Rotate creatives every 2 weeks, diversify channels (don't over-rely on Facebook), use organic content (TikTok, Telegram), leverage word of mouth"
+      },
+      {
+        "risk": "Seasonal timing conflict",
+        "impact": "Medium",
+        "probability": "Medium",
+        "description": "April = Khmer New Year (1 week holiday), June-July = rainy season — lower foot traffic for events",
+        "mitigation": "Plan around Khmer New Year, schedule Open House for dry weekends, offer online/virtual tour options, provide transport for rain days"
+      },
+      {
+        "risk": "Low conversion rate",
+        "impact": "High",
+        "probability": "Medium",
+        "description": "Funnel assumes 1.5% conversion — if actual is 0.8-1.0%, need 2x more leads = 2x more budget",
+        "mitigation": "Track conversion weekly, A/B test landing pages, optimize follow-up speed, train admissions team on sales techniques, have contingency budget +20%"
+      }
+    ]
+  },
+  "risks": [
+    {"name": "Political instability", "impact": "Medium", "probability": "Low"},
+    {"name": "Economic slowdown", "impact": "High", "probability": "Medium"},
+    {"name": "Competition increase", "impact": "High", "probability": "High"},
+    {"name": "Teacher retention", "impact": "High", "probability": "High"},
+    {"name": "Regulatory changes", "impact": "Medium", "probability": "Medium"},
+    {"name": "Currency KHR/USD", "impact": "Low", "probability": "Low"}
+  ]
+}

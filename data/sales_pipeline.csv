@@ -1,0 +1,19 @@
+lead_id,name,phone,grade,source,stage,last_contact,next_action,owner,priority,notes
+WISC-001,Sokha Pich,+855 12 345 678,G3,Facebook Ads,Tour Booked,2026-04-22,Tour on 2026-04-26 10:00,ПК,Hot,Mother lawyer; focus on Cambridge pathway
+WISC-002,Vichet Sok,+855 12 345 679,G7,TikTok Ads,Contacted,2026-04-23,Send fee sheet,ПК,Warm,"Asked about Chinese program, price sensitive"
+WISC-003,Chenda Lim,+855 97 123 456,G1,Google Search,Qualified,2026-04-23,Book tour,ПК,Hot,Switching from BELTEI; unhappy with English level
+WISC-004,Ming Zhao,+855 12 987 654,G5,WeChat,Qualified,2026-04-22,Book tour (Saturday),ПК,Hot,"Chinese diaspora, wants trilingual"
+WISC-005,Sovann Dara,+855 15 555 111,Pre-school,Referral,New,2026-04-23,First reply <5 min,ПК,Warm,Referred by existing parent
+WISC-006,Pisey Heng,+855 77 222 333,G9,Facebook Messenger,Tour Done,2026-04-20,Post-tour follow-up,ПК,Hot,"Loved the robotics lab; application expected this week"
+WISC-007,Rathana Keo,+855 78 444 555,G2,Instagram,Contacted,2026-04-22,Qualification questions,ПК,Warm,Asked about bus/transport
+WISC-008,Bophaly Chhun,+855 16 666 777,G11,Google Search,Application,2026-04-21,Entrance Test this week,ПК + Кайсар,Hot,Transferring from CIA First; SAT prep priority
+WISC-009,Kanha Meas,+855 17 888 999,G4,Referral,Tour Booked,2026-04-23,Tour on 2026-04-27 14:00,ПК,Warm,Sibling of WISC-003
+WISC-010,Ly Chen Wei,+855 92 111 222,G6,WeChat,Tour Done,2026-04-19,Application nudge Script 8,ПК,Warm,Hesitating on price; target Early Bird
+WISC-011,Dara Um,+855 93 333 444,K2,Facebook Ads,New,2026-04-23,First reply <5 min,ПК,Hot,Twins! Tiered pricing discussion needed
+WISC-012,Narin Kim,+855 94 555 666,G8,Google Search,Qualified,2026-04-21,Book tour,ПК,Cold,Not responsive — try phone call
+WISC-013,Sophal Tep,+855 95 777 888,G10,TikTok Ads,Contacted,2026-04-23,Script 3 price handling,ПК,Warm,Asked price immediately; redirect to value
+WISC-014,Channary Nou,+855 96 999 000,G1,Facebook Messenger,Deposit,2026-04-18,Welcome pack + Script 12 referral,ПК,Hot,Enrolled! Send referral ask in 7 days
+WISC-015,Vanna Sreng,+855 12 111 333,G5,Referral,Tour Booked,2026-04-22,Tour on 2026-04-25 11:00,ПК,Hot,Brought by Sokha Pich; word-of-mouth
+WISC-016,Arun Yim,+855 17 444 666,G12,Google Search,Application,2026-04-22,Entrance Test booking,ПК,Hot,SAT candidate; ready to enroll
+WISC-017,Sreyroth Pov,+855 15 777 999,G6,Facebook Ads,New,2026-04-23,First reply <5 min,ПК,Hot,Just came in 10 minutes ago
+WISC-018,Phalla Chen,+855 92 222 444,K1,Instagram,Qualified,2026-04-20,Book tour,ПК,Cold,Language barrier concern — Khmer-first messaging

@@ -1,0 +1,647 @@
+{
+  "_comment": "Admissions Officer Training Course — 10 modules, 3-day intensive (28-30 April). Pass threshold 80%.",
+  "course_meta": {
+    "duration_days": 3,
+    "start_date": "2026-04-28",
+    "end_date": "2026-04-30",
+    "passing_score_pct": 80
+  },
+  "modules": [
+    {
+      "id": "m1_product",
+      "video": "Айжан запишет — placeholder",
+      "quiz": [
+        {
+          "q": "Какая tuition для G6-G8 при Annual оплате со скидкой Early Bird 15%?",
+          "options": [
+            "$3,290",
+            "$3,483",
+            "$3,870",
+            "$4,300"
+          ],
+          "correct_idx": 0,
+          "explain": "$4,300 × 0.85 (Early Bird) × 0.90 (Annual) = $3,289.50 ≈ $3,290",
+          "q_en": "What's the tuition for G6-G8 with Annual payment and Early Bird 15%?",
+          "options_en": [
+            "$3,290",
+            "$3,483",
+            "$3,870",
+            "$4,300"
+          ],
+          "explain_en": "$4,300 × 0.85 (Early Bird) × 0.90 (Annual) = $3,289.50 ≈ $3,290"
+        },
+        {
+          "q": "Сколько lessons per week кхмерского языка в программе?",
+          "options": [
+            "5",
+            "10",
+            "3",
+            "15"
+          ],
+          "correct_idx": 1,
+          "explain": "10 lessons/week — полноценная Khmer program",
+          "q_en": "How many lessons per week of Khmer are in the program?",
+          "options_en": [
+            "5",
+            "10",
+            "3",
+            "15"
+          ],
+          "explain_en": "10 lessons/week — full Khmer program"
+        },
+        {
+          "q": "Какая разница между Annual и Semester по скидке?",
+          "options": [
+            "Оба 10%",
+            "Annual 10% / Semester 5%",
+            "Annual 15% / Semester 10%",
+            "Оба 5%"
+          ],
+          "correct_idx": 1,
+          "explain": "Annual — 10%, Semester (2×) — 5%, Term (3×) — без скидки",
+          "q_en": "Annual vs Semester discount difference?",
+          "options_en": [
+            "Both 10%",
+            "Annual 10% / Semester 5%",
+            "Annual 15% / Semester 10%",
+            "Both 5%"
+          ],
+          "explain_en": "Annual — 10%, Semester (2×) — 5%, Term (3×) — no discount"
+        }
+      ],
+      "title_en": "Module 1: WISC product — know it by heart",
+      "goal_en": "In 1 day — know the product at the Head-of-School level",
+      "theory_en": [
+        "All grades and tuition (Pre-school $3,500 → G12 $4,500)",
+        "One-time fees: Registration $350, Entrance Test $20, Mattress (Nursery) $35",
+        "Discounts: Early Bird May 31 — 15%, Jun 30 — 10%; Sibling 5%/10%; Annual 10%; stackable up to 25%",
+        "Infrastructure: swimming pool, football pitch, science/art/music/robotics/computer labs, library",
+        "Programs: Cambridge + Khmer + Chinese in parallel; Singapore Math, PBL, PSHE, SEL",
+        "Extracurriculars (2×/wk): Swimming, Karate/Taekwondo, Robotics, Drama, Debate/TEDx, Dance, Art",
+        "International assessments: MAP Test (G3-G10), PSAT (G10)",
+        "Pathway: 1-6 Edexcel → 7-10 Transition to WASC → 11+ SAT/IELTS/K-12",
+        "Language Support: Multilingual Learner (Cambridge) $110/mo G1-G10, Khmer Academic Support $25/mo G1-G5"
+      ],
+      "exercises_en": [
+        "Walk a parent of a G4 child through the full package with Early Bird + Sibling in 90 seconds",
+        "Recite infrastructure by heart (10 objects in correct tour order)"
+      ],
+      "title_ru": "Module 1: Продукт WISC — всё что надо знать наизусть",
+      "goal_ru": "Через 1 день знать продукт на уровне директора",
+      "theory_ru": [
+        "Все классы и tuition (Pre-school $3,500 → G12 $4,500)",
+        "One-time fees: Registration $350, Entrance Test $20, Mattress (Nursery) $35",
+        "Скидки: Early Bird 31 мая — 15%, 30 июня — 10%; Sibling 5%/10%; Annual 10%; stackable до 25%",
+        "Инфраструктура: бассейн, футбольное поле, science/art/music/robotics/computer labs, библиотека",
+        "Программы: Cambridge + Khmer + Chinese параллельно; Singapore Math, PBL, PSHE, SEL",
+        "Extracurriculars (2×/нед): Swimming, Karate/Taekwondo, Robotics, Drama, Debate/TEDx, Dance, Art",
+        "International assessments: MAP Test (G3-G10), PSAT (G10)",
+        "Pathway: 1-6 Edexcel → 7-10 Transition to WASC → 11+ SAT/IELTS/K-12",
+        "Language Support: Multilingual Learner (Cambridge) $110/мес G1-G10, Khmer Academic Support $25/мес G1-G5"
+      ],
+      "exercises_ru": [
+        "Расскажи родителю с ребёнком G4 полный package с Early Bird + Sibling за 90 секунд",
+        "Покажи инфраструктуру по памяти (10 объектов в правильном порядке тура)"
+      ],
+      "title_km": "",
+      "goal_km": "",
+      "theory_km": [],
+      "exercises_km": []
+    },
+    {
+      "id": "m2_segments",
+      "video": "Айжан запишет 4 × 10-min сегментных deep-dive",
+      "quiz": [
+        {
+          "q": "Родитель пишет в WeChat, ребёнок G2, спрашивает про Chinese program и признание в университетах CN. Сегмент?",
+          "options": [
+            "Khmer средний+",
+            "Китайская диаспора",
+            "Local elite",
+            "Expat"
+          ],
+          "correct_idx": 1,
+          "explain": "WeChat + Chinese-focused вопрос = китайская диаспора",
+          "q_en": "Parent writes in WeChat, child G2, asks about Chinese program and CN university recognition. Segment?",
+          "options_en": [
+            "Khmer middle+",
+            "Chinese diaspora",
+            "Local elite",
+            "Expat"
+          ],
+          "explain_en": "WeChat + Chinese-focused question = Chinese diaspora"
+        },
+        {
+          "q": "Родитель пришёл по Facebook Ads, Khmer имя, спрашивает про Early Bird discount. Наиболее вероятный сегмент?",
+          "options": [
+            "Khmer средний+",
+            "Expat",
+            "Local elite",
+            "Chinese"
+          ],
+          "correct_idx": 0,
+          "explain": "FB Ads + интерес к discount = Khmer средний+ class (price-sensitive)",
+          "q_en": "Parent came via Facebook Ads, Khmer name, asks about Early Bird discount. Most likely segment?",
+          "options_en": [
+            "Khmer middle+",
+            "Expat",
+            "Local elite",
+            "Chinese"
+          ],
+          "explain_en": "FB Ads + discount interest = Khmer middle+ class (price-sensitive)"
+        }
+      ],
+      "title_en": "Module 2: Who is our parent — 4 segments deep",
+      "goal_en": "Identify segment in 10 seconds and adapt tone",
+      "theory_en": [
+        "Khmer middle+ class (PRIMARY): affluent local families, $2-6K/mo income, priority — English + pathway, fear — «child's weak English»",
+        "Chinese diaspora: came from China/HK/Taiwan, value academic results and discipline, objection — «certificate recognition in CN»",
+        "Local elite: old PP families, large business, value networking and prestige, low-volume high-LTV",
+        "Expat (secondary): 2-5-year contracts, need international standards, MAP/PSAT matter for mobility"
+      ],
+      "exercises_en": [
+        "Officer gets a card with 5 signals (name, age, phrase, messenger, channel) — identify segment in 30 sec",
+        "Switch tone of first message across segments: Khmer → Chinese → Expat"
+      ],
+      "title_ru": "Module 2: Кто наш родитель — 4 сегмента глубоко",
+      "goal_ru": "За 10 секунд определить сегмент и адаптировать тон",
+      "theory_ru": [
+        "Khmer средний+ класс (PRIMARY): affluent local families, доход $2-6K/мес, приоритет — English + pathway, страх — «слабый английский ребёнка»",
+        "Китайская диаспора: приехали из Китая/Гонконга/Тайваня, ценят академические результаты и дисциплину, возражение — «признание сертификатов в CN»",
+        "Local elite: старые семьи PP, крупный бизнес, ценят networking и престиж, low-volume high-LTV",
+        "Expat (второй план): 2-5-летние контракты, нужны международные стандарты, MAP/PSAT важны для мобильности"
+      ],
+      "exercises_ru": [
+        "ПК получает карточку с 5 сигналами (имя, возраст, фраза, мессенджер, канал) — определить сегмент за 30 сек",
+        "Сменить тон первого сообщения под сегмент: Khmer → Chinese → Expat"
+      ],
+      "title_km": "",
+      "goal_km": "",
+      "theory_km": [],
+      "exercises_km": []
+    },
+    {
+      "id": "m3_psychology",
+      "video": "Айжан запишет — placeholder",
+      "quiz": [
+        {
+          "q": "Родитель говорит «Школа дороговата». Наиболее вероятный hidden motivator:",
+          "options": [
+            "Реально нет денег",
+            "Нужно подтверждение ценности",
+            "Хочет скидку",
+            "Проверяет вас"
+          ],
+          "correct_idx": 1,
+          "explain": "В 70% случаев «дорого» = «убедите меня что это стоит того». Нужно усилить value, а не давать скидку.",
+          "q_en": "Parent says «School is a bit expensive». Most likely hidden motivator:",
+          "options_en": [
+            "Really no money",
+            "Needs value confirmation",
+            "Wants discount",
+            "Testing you"
+          ],
+          "explain_en": "In 70% of cases «expensive» = «convince me it's worth it». Reinforce value, don't drop price."
+        }
+      ],
+      "title_en": "Module 3: Parent psychology — what drives them",
+      "goal_en": "Understand what the parent is REALLY buying",
+      "theory_en": [
+        "5 deep drivers: safety, future (of the child), status (family), belonging (community), development",
+        "Jobs-to-be-done frame: «A parent hires a school to...» — finish the phrase for each segment",
+        "Emotional triggers: fear of choosing wrong, guilt of not giving enough attention, desire to be proud",
+        "Spot true objection vs socially acceptable excuse («We'll think about it» often = «I lack information» or «Spouse disagrees»)"
+      ],
+      "exercises_en": [
+        "Analyze 3 cases: officer determines what parent really wants to hear",
+        "Listen-only call recording: find 3 hidden motivators in 5 minutes"
+      ],
+      "title_ru": "Module 3: Психология родителя — что ими движет",
+      "goal_ru": "Понимать что родитель НА САМОМ ДЕЛЕ покупает",
+      "theory_ru": [
+        "5 глубинных драйверов: safety (безопасность), future (будущее ребёнка), status (статус семьи), belonging (community), development (рост ребёнка)",
+        "Jobs-to-be-done рамка: «Родитель нанимает школу чтобы...» — закончить фразу для каждого сегмента",
+        "Эмоциональные триггеры: страх ошибиться в выборе, вина за недостаточное внимание к ребёнку, желание гордиться достижениями",
+        "Распознавать: true objection vs социально приемлемая отговорка («Мы подумаем» часто = «Мне не хватает информации» или «Муж не согласен»)"
+      ],
+      "exercises_ru": [
+        "Разбор 3 кейсов: ПК определяет что родитель на самом деле хочет услышать",
+        "Listen-only call recording: найти 3 hidden motivators за 5 минут разговора"
+      ],
+      "title_km": "",
+      "goal_km": "",
+      "theory_km": [],
+      "exercises_km": []
+    },
+    {
+      "id": "m4_crm_sla",
+      "video": "Placeholder — запись Zoom с Кайсаром по CRM walkthrough",
+      "quiz": [
+        {
+          "q": "Target speed-to-lead в рабочие часы?",
+          "options": [
+            "< 1 min",
+            "< 5 min",
+            "< 15 min",
+            "< 30 min"
+          ],
+          "correct_idx": 1,
+          "explain": "< 5 минут — mandatory. Лид остывает очень быстро.",
+          "q_en": "Target speed-to-lead during working hours?",
+          "options_en": [
+            "< 1 min",
+            "< 5 min",
+            "< 15 min",
+            "< 30 min"
+          ],
+          "explain_en": "< 5 minutes — mandatory. Lead cools very fast."
+        },
+        {
+          "q": "Лид получен в воскресенье в 21:00. Когда ответ?",
+          "options": [
+            "Сразу",
+            "В понедельник 8:00",
+            "В течение 30 мин от начала пн",
+            "Ждать когда родитель напишет снова"
+          ],
+          "correct_idx": 2,
+          "explain": "Off-hours SLA: auto-reply сразу + personal reply <30 мин от начала следующего рабочего дня",
+          "q_en": "Lead received Sunday 21:00. When do you reply?",
+          "options_en": [
+            "Immediately",
+            "Monday 8:00",
+            "Within 30 min of start of Mon",
+            "Wait until parent writes again"
+          ],
+          "explain_en": "Off-hours SLA: auto-reply immediately + personal reply <30 min from start of next working day"
+        }
+      ],
+      "title_en": "Module 4: Speed-to-Lead & CRM discipline",
+      "goal_en": "No lead lost, no lead waits >5 min",
+      "theory_en": [
+        "SLA: Reply <5 min (working hrs) / <30 min (off-hours); Tour book in 24h; Post-tour follow-up in 24h",
+        "CRM stages: New → Contacted → Qualified → Tour Booked → Tour Done → Application → Entrance Test → Deposit → Enrolled",
+        "Drop-off codes: Price / Language / Competitor / Location / Not decided / No response / Other",
+        "Priority tags: Hot (WA <1h + P0 grade) / Warm / Cold",
+        "Notifications: mobile + laptop + smart-watch; zero silent moments"
+      ],
+      "exercises_en": [
+        "Simulation: 10 leads arrive in 1 hour — all must be processed in SLA",
+        "Role-play: lead during lunch break — what do you do?"
+      ],
+      "title_ru": "Module 4: Speed-to-Lead & CRM дисциплина",
+      "goal_ru": "Ни один лид не теряется, ни один не ждёт > 5 мин",
+      "theory_ru": [
+        "SLA: Reply <5 мин (раб. часы) / <30 мин (off-hours); Tour book в 24ч; Post-tour follow-up в 24ч",
+        "CRM стадии: New → Contacted → Qualified → Tour Booked → Tour Done → Application → Entrance Test → Deposit → Enrolled",
+        "Drop-off коды: Price / Language / Competitor / Location / Not decided / No response / Other",
+        "Priority tags: Hot (WA <1h + P0 grade) / Warm / Cold",
+        "Notification setup: мобильный + ноутбук + смарт-часы; ни одного silent moment"
+      ],
+      "exercises_ru": [
+        "Симуляция: 10 лидов падают в течение часа, все должны быть обработаны в SLA",
+        "Role-play: лид в обеденный перерыв — что делаешь?"
+      ],
+      "title_km": "",
+      "goal_km": "",
+      "theory_km": [],
+      "exercises_km": []
+    },
+    {
+      "id": "m5_messenger",
+      "video": "Placeholder",
+      "quiz": [
+        {
+          "q": "В первом reply через WhatsApp стоит использовать voice message?",
+          "options": [
+            "Да, это персональнее",
+            "Нет — voice для уже знакомых лидов",
+            "Всегда voice",
+            "Не важно"
+          ],
+          "correct_idx": 1,
+          "explain": "Первый контакт — текст. Voice — когда уже есть доверие и reply expected от ПК.",
+          "q_en": "Should first reply via WhatsApp be a voice message?",
+          "options_en": [
+            "Yes, more personal",
+            "No — voice for already-known leads",
+            "Always voice",
+            "Doesn't matter"
+          ],
+          "explain_en": "First contact — text. Voice — when trust exists and reply is expected from officer."
+        }
+      ],
+      "title_en": "Module 5: Messenger communication — the fine points",
+      "goal_en": "Write messages people want to reply to",
+      "theory_en": [
+        "Message length: shorter is better. 2-3 lines + 1 question",
+        "Emojis: moderate, appropriate (🌟 🙏 😊 ✨). DON'T use in funerals / SEN talks",
+        "Personalization: mention child's name in every reply (if known)",
+        "Voice messages: OK for warm leads and tours, NOT for first contact",
+        "How not to look like a bot: personal details, ask questions back, avoid template replies",
+        "Transition WhatsApp → phone call: «This will be 5 min of talk — can I call you at [time]?»"
+      ],
+      "exercises_en": [
+        "Rewrite 5 «bad» messages → «good» (examples below)",
+        "Record 3 voice messages for different scenarios"
+      ],
+      "title_ru": "Module 5: Мессенджер-коммуникация — тонкости",
+      "goal_ru": "Писать так, чтобы хотелось ответить",
+      "theory_ru": [
+        "Длина сообщения: короче — лучше. 2-3 строки + 1 вопрос",
+        "Emoji: умеренно, уместно (🌟 🙏 😊 ✨). НЕ использовать на похоронах / SEN-разговорах",
+        "Personalization: имя ребёнка упомянуть в каждом ответе (если известно)",
+        "Voice messages: OK для тёплых лидов и тура, НЕ для первого контакта",
+        "Как не выглядеть ботом: личные детали, вопросы в ответ, не шаблонные ответы",
+        "Как перевести WhatsApp → phone call: «Это будет 5 минут разговора — можно позвоню в [time]?»"
+      ],
+      "exercises_ru": [
+        "Переписать 5 «плохих» сообщений → «хороших» (примеры ниже)",
+        "Запись 3 voice messages для разных сценариев"
+      ],
+      "title_km": "",
+      "goal_km": "",
+      "theory_km": [],
+      "exercises_km": []
+    },
+    {
+      "id": "m6_phone",
+      "video": "Placeholder — запись 3 образцовых звонков от Айжан",
+      "quiz": [
+        {
+          "q": "Оптимальное соотношение listening/talking на sales call:",
+          "options": [
+            "50/50",
+            "70% listen / 30% talk",
+            "30% listen / 70% talk",
+            "90/10"
+          ],
+          "correct_idx": 1,
+          "explain": "70/30 — родитель должен говорить больше. Вы задаёте вопросы и слушаете.",
+          "q_en": "Optimal listening/talking ratio on a sales call:",
+          "options_en": [
+            "50/50",
+            "70% listen / 30% talk",
+            "30% listen / 70% talk",
+            "90/10"
+          ],
+          "explain_en": "70/30 — parent should talk more. You ask questions and listen."
+        }
+      ],
+      "title_en": "Module 6: Phone Sales Skills",
+      "goal_en": "Confident, human, selling voice",
+      "theory_en": [
+        "First 10 seconds matter: warm greeting + name + reason for call",
+        "Active listening: 70% listen, 30% speak. Echo parent's key words",
+        "Intonation: warmth + calm + confidence (not pushy)",
+        "Handling interruptions: «Of course, I'm listening...» — don't cut off",
+        "Switch to kids if they come: use name, ask 1 friendly question",
+        "Close on phone: «Let me book a tour now — Monday or Wednesday?»"
+      ],
+      "exercises_en": [
+        "10 role-play calls with Aizhan/Kaisar, recording + review",
+        "Tongue twisters to train intonation"
+      ],
+      "title_ru": "Module 6: Phone Sales Skills",
+      "goal_ru": "Уверенный, человеческий, продающий голос",
+      "theory_ru": [
+        "Первые 10 секунд звонка решают: тёплое приветствие + имя + причина звонка",
+        "Active listening: 70% слушать, 30% говорить. Повторять ключевые слова родителя",
+        "Intonation: тепло + спокойствие + уверенность (не продажник)",
+        "Handling interruptions: «Конечно, слушаю...» — не обрывать родителя",
+        "Переключение на ребёнка: если подошёл — обращаться по имени, задать 1 дружелюбный вопрос",
+        "Close on phone: «Давайте сразу забронирую тур — понедельник или среда?»"
+      ],
+      "exercises_ru": [
+        "10 role-play звонков с Айжан/Кайсаром, запись + разбор",
+        "Tongue twister упражнения для тренировки интонации"
+      ],
+      "title_km": "",
+      "goal_km": "",
+      "theory_km": [],
+      "exercises_km": []
+    },
+    {
+      "id": "m7_tour",
+      "video": "Placeholder — запись образцового тура",
+      "quiz": [
+        {
+          "q": "Когда правильно начинать разговор о цене на туре?",
+          "options": [
+            "Сразу у ресепшена",
+            "После 5 минут walk-through",
+            "В sit-down фазе (минуты 35-50)",
+            "Только если родитель сам спросит"
+          ],
+          "correct_idx": 2,
+          "explain": "Цена — в sit-down. Первые 30 мин — эмоция и ценность.",
+          "q_en": "When to start talking about price on a tour?",
+          "options_en": [
+            "Right at reception",
+            "After 5 min walk-through",
+            "Sit-down phase (min 35-50)",
+            "Only if parent asks"
+          ],
+          "explain_en": "Price — in sit-down. First 30 min — emotion and value."
+        }
+      ],
+      "title_en": "Module 7: Campus Tour Mastery",
+      "goal_en": "Run tours where 70%+ close on application",
+      "theory_en": [
+        "Tour = 60 minutes. See Tour Playbook (section 3.6)",
+        "Route is emotional, not a room checklist",
+        "Stories over facts: «Grade 3 last week did...»",
+        "Engage the child (their eye level)",
+        "Money — only in the final 20 minutes, after emotional connection",
+        "Mandatory close on a specific next step (application / entrance test / decision deadline)"
+      ],
+      "exercises_en": [
+        "Mock tour: officer runs a tour for colleagues, colleagues play parents from 4 segments",
+        "Walk-through from memory: 7 rooms, each with its «selling line»"
+      ],
+      "title_ru": "Module 7: Campus Tour Mastery",
+      "goal_ru": "Проводить тур так, чтобы 70%+ закрывались на application",
+      "theory_ru": [
+        "Тур = 60 минут. См. Tour Playbook (section 3.6)",
+        "Маршрут — эмоциональный, не чек-лист комнат",
+        "Истории вместо фактов: «Grade 3 на прошлой неделе сделал...»",
+        "Подключать ребёнка к разговору (его уровень глаз)",
+        "Деньги — только в финальные 20 минут, когда есть emotional connection",
+        "Обязательный close на конкретный next step (application / entrance test / decision deadline)"
+      ],
+      "exercises_ru": [
+        "Mock-tour: ПК проводит тур для коллег, коллеги играют роли родителей из 4 сегментов",
+        "Walk-through без шпаргалки: 7 комнат, в каждой своя ''selling line''"
+      ],
+      "title_km": "",
+      "goal_km": "",
+      "theory_km": [],
+      "exercises_km": []
+    },
+    {
+      "id": "m8_objections",
+      "video": "Placeholder",
+      "quiz": [
+        {
+          "q": "Родитель говорит «У конкурента на $500 дешевле». Лучший первый ход:",
+          "options": [
+            "Дать скидку",
+            "Согласиться что у нас дороже",
+            "Признать факт и спросить ''Что именно привлекло в той школе?''",
+            "Сказать что мы лучше"
+          ],
+          "correct_idx": 2,
+          "explain": "Acknowledge + curiosity question. Собираете intel + переводите в ценность.",
+          "q_en": "Parent says «Competitor is $500 cheaper». Best first move:",
+          "options_en": [
+            "Offer discount",
+            "Agree we're more expensive",
+            "Acknowledge + ask 'What attracted you to that school?'",
+            "Say we're better"
+          ],
+          "explain_en": "Acknowledge + curiosity question. Collect intel + redirect to value."
+        }
+      ],
+      "title_en": "Module 8: Objections & Price Talks",
+      "goal_en": "Handle 15+ objections on autopilot",
+      "theory_en": [
+        "Full section 3.5 (Objections Matrix)",
+        "5-step rule: Listen → Acknowledge → Clarify → Answer → Check-in",
+        "NEVER agree with «expensive», but don't argue either",
+        "Always redirect to next step after resolving objection"
+      ],
+      "exercises_en": [
+        "«Objection lottery»: coach throws a random objection, officer replies in 15 sec with no prep",
+        "Written exam: 15 objections — officer writes answers in 3 languages"
+      ],
+      "title_ru": "Module 8: Objections & Price Talks",
+      "goal_ru": "Держать 15+ возражений на автомате",
+      "theory_ru": [
+        "Полностью секция 3.5 (Objections Matrix)",
+        "Правило 5 шагов: Слушать → Признать → Уточнить → Ответить → Чек-ин",
+        "НИКОГДА не соглашаться с «дорого», но и не спорить",
+        "Always redirect to next step after resolving objection"
+      ],
+      "exercises_ru": [
+        "«Возражение лотерея»: тренер кидает случайное возражение, ПК отвечает за 15 сек без подготовки",
+        "Письменный exam: 15 возражений — ПК пишет ответы на 3 языках"
+      ],
+      "title_km": "",
+      "goal_km": "",
+      "theory_km": [],
+      "exercises_km": []
+    },
+    {
+      "id": "m9_closing",
+      "video": "Placeholder",
+      "quiz": [
+        {
+          "q": "Родитель после тура говорит «Всё отлично, нам очень нравится». Какой close?",
+          "options": [
+            "Soft (''что ещё обсудить?'')",
+            "Assumptive (''записываю на entrance test в среду'')",
+            "Scarcity (''последние места'')",
+            "Все 3 подряд"
+          ],
+          "correct_idx": 1,
+          "explain": "Сигнал зелёный — assumptive close. Быстрый переход в действие.",
+          "q_en": "Parent after tour says «Everything's great, we love it». Which close?",
+          "options_en": [
+            "Soft (''what else to discuss?'')",
+            "Assumptive (''booking entrance test Wednesday'')",
+            "Scarcity (''last seats'')",
+            "All 3 in a row"
+          ],
+          "explain_en": "Green signal — assumptive close. Quick transition to action."
+        }
+      ],
+      "title_en": "Module 9: Closing Techniques",
+      "goal_en": "Turn interest into deposited seat",
+      "theory_en": [
+        "Trial close: «How's everything so far?»",
+        "Assumptive close: «Let me book the entrance test for Wednesday?»",
+        "Scarcity close: Early Bird deadline + last seats in Grade",
+        "Alternative close: «Annual or Semester payment?» (not yes/no — choice of 2 yeses)",
+        "Soft close: «What else is important to discuss before deciding?»",
+        "Don't close when: parent clearly not ready, unresolved basic doubts, SEN cases"
+      ],
+      "exercises_en": [
+        "5 cases — officer picks and applies the right close",
+        "Mirror exercise: video of own close moments → review"
+      ],
+      "title_ru": "Module 9: Closing Techniques",
+      "goal_ru": "Переводить интерес в deposited seat",
+      "theory_ru": [
+        "Trial close: «Как вам пока всё?»",
+        "Assumptive close: «Давайте сразу запишу entrance test на среду?»",
+        "Scarcity close: Early Bird deadline + last seats in Grade",
+        "Alternative close: «Annual или Semester payment?» (не да/нет — выбор из двух да)",
+        "Soft close: «Что для вас ещё важно обсудить прежде чем решить?»",
+        "Когда НЕ закрывать: родитель явно не готов, есть нерешённые базовые сомнения, SEN случаи"
+      ],
+      "exercises_ru": [
+        "5 кейсов — ПК выбирает какой close применить и применяет",
+        "Mirror exercise: видео записи своих close moments → разбор"
+      ],
+      "title_km": "",
+      "goal_km": "",
+      "theory_km": [],
+      "exercises_km": []
+    },
+    {
+      "id": "m10_excellence",
+      "video": "Placeholder",
+      "quiz": [
+        {
+          "q": "Ребёнок с серьёзным SEN, WISC не может обеспечить поддержку. Что делать?",
+          "options": [
+            "Всё равно продать — квота важнее",
+            "Отправить к специалистам с честной рекомендацией",
+            "Сказать что мест нет",
+            "Отложить разговор"
+          ],
+          "correct_idx": 1,
+          "explain": "Этика первична. Long-term repumation > short-term enrollment.",
+          "q_en": "Child with serious SEN, WISC can't provide support. What do you do?",
+          "options_en": [
+            "Sell anyway — quota matters",
+            "Refer to specialists with honest recommendation",
+            "Say no seats available",
+            "Postpone conversation"
+          ],
+          "explain_en": "Ethics first. Long-term reputation > short-term enrollment."
+        }
+      ],
+      "title_en": "Module 10: Excellence & Continuous Improvement",
+      "goal_en": "Get better every week",
+      "theory_en": [
+        "Self-review: listen to your own calls, re-read chats every Friday",
+        "Weekly 1:1 with Kaisar/Aizhan — 30-min review",
+        "Metrics ownership: know your numbers by heart (speed-to-lead, show-up rate, conversion)",
+        "Peer learning: review won and lost cases in the team",
+        "Ethics: when to decline a family — if WISC isn't right for the child (SEN cases, incompatible expectations), be honest"
+      ],
+      "exercises_en": [
+        "Weekly scorecard self-review — what to change next week",
+        "Present 1 lost case in team meeting — what you'd do differently"
+      ],
+      "title_ru": "Module 10: Excellence & Continuous Improvement",
+      "goal_ru": "Каждую неделю становиться лучше",
+      "theory_ru": [
+        "Self-review: слушать свои звонки, перечитывать чаты каждую пятницу",
+        "Weekly 1:1 с Кайсаром/Айжан — 30 мин разбор",
+        "Metrics ownership: знать свои цифры наизусть (speed-to-lead, show-up rate, conversion)",
+        "Peer learning: разбор выигранных и проигранных кейсов в команде",
+        "Этика: когда отказать семье — если WISC не подходит ребёнку (SEN-кейсы, несовместимые ожидания), сказать честно"
+      ],
+      "exercises_ru": [
+        "Weekly scorecard self-review — что изменить на след. неделе",
+        "Present 1 lost case in team meeting — что сделал бы иначе"
+      ],
+      "title_km": "",
+      "goal_km": "",
+      "theory_km": [],
+      "exercises_km": []
+    }
+  ]
+}

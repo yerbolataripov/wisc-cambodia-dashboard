@@ -1,0 +1,89 @@
+{
+  "_comment": "Competitor battle cards — placeholder. Aizhan to fill after secret shopping.",
+  "competitors": [
+    {
+      "id": "ispp",
+      "name": "ISPP (International School of Phnom Penh)",
+      "tuition_g1": "~$18,000",
+      "tuition_g6": "~$22,000",
+      "tuition_g10": "~$28,000",
+      "strengths": "Established reputation (1989), IB curriculum, large expat base, full accreditation",
+      "weaknesses": "Very high price (~5× WISC), less accessible for local families, long waitlists",
+      "our_edge": "WISC offers 80% of ISPP's infrastructure at ~20% of the price. Trilingual (Khmer+Chinese) vs ISPP's single-language focus.",
+      "pitch": "«ISPP is excellent for expat-only families with a big budget. For families wanting international quality with Cambodian cultural grounding and local access — WISC is purpose-built.»",
+      "status": "placeholder"
+    },
+    {
+      "id": "northbridge",
+      "name": "Northbridge International School",
+      "tuition_g1": "~$14,000",
+      "tuition_g6": "~$18,000",
+      "tuition_g10": "~$24,000",
+      "strengths": "Strong IB program, international community, established brand",
+      "weaknesses": "Expensive, less Cambodian cultural integration",
+      "our_edge": "WISC's Cambridge + Khmer + Chinese trilingual approach; Singapore Math methodology; lower barrier to entry",
+      "pitch": "«Northbridge is a solid IB school. We offer Cambridge pathway with deeper Cambodian roots — your child graduates trilingual and with stronger cultural identity.»",
+      "status": "placeholder"
+    },
+    {
+      "id": "ican",
+      "name": "iCAN British International School",
+      "tuition_g1": "~$6,000",
+      "tuition_g6": "~$9,000",
+      "tuition_g10": "~$12,000",
+      "strengths": "British curriculum, mid-premium positioning, multi-campus",
+      "weaknesses": "Less infrastructure depth (no robotics lab, smaller pool), less curriculum innovation",
+      "our_edge": "WISC has broader infrastructure (robotics, science labs, Singapore Math) + trilingual focus at similar price point",
+      "pitch": "«iCAN offers a British curriculum. We offer Cambridge + innovative methodologies (Singapore Math, PBL, SEL) with full-spectrum labs — same price bracket, richer program.»",
+      "status": "placeholder"
+    },
+    {
+      "id": "canadian",
+      "name": "Canadian International School",
+      "tuition_g1": "~$5,500",
+      "tuition_g6": "~$8,000",
+      "tuition_g10": "~$11,500",
+      "strengths": "Canadian curriculum, good reputation in expat community",
+      "weaknesses": "Single-national curriculum focus, less trilingual exposure",
+      "our_edge": "WISC's pathway (Cambridge → WASC → SAT) opens doors to wider university networks; trilingual advantage",
+      "pitch": "«CIS is strong on Canadian pathway. WISC's Cambridge + WASC pathway gives your child flexibility to apply to UK, US, Canada, Australia, Singapore — plus trilingual fluency.»",
+      "status": "placeholder"
+    },
+    {
+      "id": "eastern",
+      "name": "Eastern International School (EWIS)",
+      "tuition_g1": "~$4,320",
+      "tuition_g6": "~$5,500",
+      "tuition_g10": "~$7,040",
+      "strengths": "Cambridge + bilingual Khmer/English, WASC accreditation, established local brand (since 2006)",
+      "weaknesses": "Less Chinese language emphasis, infrastructure less modern",
+      "our_edge": "WISC adds Chinese language (5 lessons/week) — critical for families planning Asia pathway. Newer facilities.",
+      "pitch": "«EWIS is a strong Khmer-English school. WISC adds a third language (Chinese) and modern facilities — for families who want their child ready for Asia's future.»",
+      "status": "placeholder"
+    },
+    {
+      "id": "mengly",
+      "name": "Mengly J. Quach Education",
+      "tuition_g1": "~$2,500",
+      "tuition_g6": "~$3,800",
+      "tuition_g10": "~$5,500",
+      "strengths": "Strong local brand, MoEYS + international blend, affordable",
+      "weaknesses": "Less international exposure, less infrastructure depth",
+      "our_edge": "WISC's international pathway (SAT/IELTS ready) + trilingual + infrastructure — targeted to families planning international university routes",
+      "pitch": "«Mengly is a great local-first option. WISC is for families with international aspirations — your child graduates ready to apply to universities in Singapore, UK, Australia.»",
+      "status": "placeholder"
+    },
+    {
+      "id": "tbd",
+      "name": "[TBD — Айжан добавит]",
+      "tuition_g1": "—",
+      "tuition_g6": "—",
+      "tuition_g10": "—",
+      "strengths": "—",
+      "weaknesses": "—",
+      "our_edge": "—",
+      "pitch": "—",
+      "status": "placeholder"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+kpi,target,current,unit,tier,tip
+Speed to lead (median),5,0,min,top,Target <5 min working hours / <30 min off-hours
+Response rate within SLA,95,0,pct,top,% of leads answered within target window
+Contact-to-Qualified conversion,70,0,pct,mid,First reply → qualified lead
+Qualified-to-Tour-Booked conversion,60,0,pct,mid,Tour scheduled after qualification
+Tour show-up rate,70,0,pct,mid,% of booked tours that actually happen
+Tour-to-Application conversion,40,0,pct,mid,Application submitted after tour
+Application-to-Deposit conversion,75,0,pct,bottom,Deposit paid after application
+Lead-to-Enrollment conversion,12,0,pct,bottom,Overall funnel conversion
+CRM data accuracy,95,0,pct,quality,% of required fields filled correctly
+Weekly calls made,40,0,count,activity,Phone outreach per week
+Weekly messages sent,200,0,count,activity,Chat messages per week
+Weekly tours conducted,8,0,count,activity,Tours led per week

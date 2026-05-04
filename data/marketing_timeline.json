@@ -1,0 +1,75 @@
+{
+  "_comment": "Ключевые дедлайны запуска приёмной комиссии. Edit 'status' only: not_started | in_progress | done.",
+  "milestones": [
+    {
+      "id": "creative_production",
+      "date": "2026-04-29",
+      "title_ru": "Съёмка видео, офферы и креативы",
+      "title_en": "Video shoot, offers and creatives",
+      "owner": "Жигер + Кайсар + Бакир",
+      "deliverables_ru": "5-8 видео-креативов, 10+ статических, 3-5 офферов",
+      "deliverables_en": "5-8 video creatives, 10+ statics, 3-5 offers",
+      "status": "in_progress"
+    },
+    {
+      "id": "admissions_setup",
+      "date": "2026-04-30",
+      "title_ru": "Скрипты, обучение ПК, CRM и таблицы",
+      "title_en": "Scripts, Admissions training, CRM setup",
+      "owner": "Айжан + Кайсар + ПК",
+      "deliverables_ru": "Admissions playbook, скрипты WA/TG, CRM pipeline, дашборд",
+      "deliverables_en": "Admissions playbook, WA/TG scripts, CRM pipeline, dashboard",
+      "status": "not_started"
+    },
+    {
+      "id": "ads_launch",
+      "date": "2026-04-30",
+      "title_ru": "Запуск таргета (Meta + TikTok + Google)",
+      "title_en": "Ads launch (Meta + TikTok + Google)",
+      "owner": "Бакир",
+      "deliverables_ru": "Кампании live, лендинг готов, трекинг работает",
+      "deliverables_en": "Campaigns live, landing ready, tracking works",
+      "status": "not_started"
+    },
+    {
+      "id": "admissions_open",
+      "date": "2026-05-01",
+      "title_ru": "ЗАПУСК ПРИЁМНОЙ КОМИССИИ",
+      "title_en": "ADMISSIONS OPEN",
+      "owner": "Вся команда",
+      "deliverables_ru": "Admissions открыта, лиды обрабатываются, туры записываются",
+      "deliverables_en": "Admissions open, leads processed, tours booked",
+      "status": "not_started"
+    },
+    {
+      "id": "early_bird_15",
+      "date": "2026-05-31",
+      "title_ru": "Закрытие окна Early Bird 15%",
+      "title_en": "Early Bird 15% window closes",
+      "owner": "Кайсар",
+      "deliverables_ru": "Volume push, last-chance кампания",
+      "deliverables_en": "Volume push, last-chance campaign",
+      "status": "not_started"
+    },
+    {
+      "id": "early_bird_10",
+      "date": "2026-06-30",
+      "title_ru": "Закрытие окна Early Bird 10%",
+      "title_en": "Early Bird 10% window closes",
+      "owner": "Кайсар",
+      "deliverables_ru": "Final push для старта учебного года",
+      "deliverables_en": "Final push for school year start",
+      "status": "not_started"
+    },
+    {
+      "id": "school_year_start",
+      "date": "2026-09-01",
+      "title_ru": "Старт учебного года",
+      "title_en": "School year start",
+      "owner": "—",
+      "deliverables_ru": "Target: 200 enrollments (min)",
+      "deliverables_en": "Target: 200 enrollments (min)",
+      "status": "not_started"
+    }
+  ]
+}

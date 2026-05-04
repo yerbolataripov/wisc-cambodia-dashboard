@@ -1,0 +1,125 @@
+{
+  "_comment": "Launch sprint — focus on lead-gen + admissions processing. Market analysis & secret shopping already closed.",
+  "days": [
+    {
+      "date": "2026-04-23",
+      "theme_ru": "Foundation — инфраструктура для сбора лидов",
+      "theme_en": "Foundation — lead-capture infrastructure",
+      "day_label": "T-8",
+      "items": [
+        {"id": "crm_pick", "task_ru": "Выбрать CRM и завести её (рекомендую HubSpot Free — бесплатно навсегда, API открытый)", "task_en": "Pick & set up CRM (recommend HubSpot Free — free forever, open API)", "owner": "Кайсар", "bonus": true},
+        {"id": "meta_bm", "task_ru": "Meta Business Manager: создать, верифицировать домен, настроить pixel + Conversion API", "task_en": "Meta BM: create, verify domain, set pixel + CAPI", "owner": "Бакир", "bonus": true},
+        {"id": "ga4_gtm", "task_ru": "Google Tag Manager + GA4 — поставить на лендинг, настроить conversion events", "task_en": "GTM + GA4 on landing with conversion events", "owner": "Бакир", "bonus": true},
+        {"id": "wa_business", "task_ru": "WhatsApp Business (не личный!) — greetings, quick replies, catalog, auto-response", "task_en": "WhatsApp Business (not personal!) — greetings, quick replies, catalog, auto-response", "owner": "Кайсар + ПК", "bonus": true},
+        {"id": "utm_taxonomy", "task_ru": "UTM-таксономия: {source}_{medium}_{campaign}_{segment} — согласовать и задокументировать", "task_en": "UTM taxonomy: {source}_{medium}_{campaign}_{segment} — agree & document", "owner": "Бакир", "bonus": true},
+        {"id": "dedicated_number", "task_ru": "Отдельный admissions-номер (Cambodian SIM) + call-forwarding + call-tracking", "task_en": "Dedicated admissions phone (KH SIM) + forwarding + call-tracking", "owner": "Кайсар", "bonus": true},
+        {"id": "moeys_license", "task_ru": "MoEYS license — копия готова для демонстрации родителям", "task_en": "MoEYS license — copy ready to show parents", "owner": "Ерболат", "bonus": true}
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "theme_ru": "Landing & payments — закрываем финансовый контур",
+      "theme_en": "Landing & payments — closing the financial loop",
+      "day_label": "T-7",
+      "items": [
+        {"id": "landing_deploy", "task_ru": "Лендинг deployed (responsive, <3s load) + форма заявки на 3 языках", "task_en": "Landing deployed (responsive, <3s load) + application form in 3 langs", "owner": "Бакир + Жигер", "bonus": false},
+        {"id": "form_to_crm", "task_ru": "Webhook форма → CRM: сквозной тест лид-формы до появления в pipeline", "task_en": "Form → CRM webhook: end-to-end lead test to pipeline", "owner": "Бакир", "bonus": false},
+        {"id": "payment_methods", "task_ru": "Платёжные методы решены: ABA Pay / Wing / KHQR / bank transfer для $350 + $20", "task_en": "Payment methods locked: ABA Pay / Wing / KHQR / bank transfer for $350 + $20", "owner": "Ерболат + Кайсар", "bonus": true},
+        {"id": "online_pay", "task_ru": "Онлайн-оплата на лендинге (Stripe Cambodia либо QR-инструкция для bank transfer)", "task_en": "Online pay on landing (Stripe Cambodia or QR bank-transfer flow)", "owner": "Бакир", "bonus": true},
+        {"id": "gmb_profile", "task_ru": "Google My Business профиль школы (для локального SEO и Maps)", "task_en": "Google My Business profile (local SEO + Maps)", "owner": "Бакир", "bonus": true},
+        {"id": "brochure_pdf", "task_ru": "Брошюра PDF: все fees, программа, ответы на 15 FAQ", "task_en": "Brochure PDF: fees, program, top-15 FAQ", "owner": "Жигер", "bonus": false}
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "theme_ru": "Ads research & creative briefs",
+      "theme_en": "Ads research & creative briefs",
+      "day_label": "T-6",
+      "items": [
+        {"id": "meta_ad_library", "task_ru": "Meta Ads Library: скриншоты креативов конкурентов (EWIS, Paragon, CIA First) — что сейчас крутят", "task_en": "Meta Ads Library: screenshot competitor live creatives (EWIS, Paragon, CIA First)", "owner": "Бакир", "bonus": true},
+        {"id": "tiktok_research", "task_ru": "TikTok research: 5 рабочих KH хэштегов + 3-5 local mom-creators для потенциальных коллабораций", "task_en": "TikTok research: 5 working KH hashtags + 3-5 local mom-creators for potential collabs", "owner": "Бакир", "bonus": true},
+        {"id": "creative_briefs", "task_ru": "Creative briefs для Жигера: 3 angle × 3 segment = 9 креативных концептов на ads", "task_en": "Creative briefs for Zhiger: 3 angle × 3 segment = 9 ad concepts", "owner": "Кайсар + Бакир", "bonus": true},
+        {"id": "audience_pixels", "task_ru": "Audience setup: lookalike от existing database (если есть), interest-based (Cambridge, international school, private school parents)", "task_en": "Audience setup: lookalike from existing DB, interest-based (Cambridge, intl school parents)", "owner": "Бакир", "bonus": true}
+      ]
+    },
+    {
+      "date": "2026-04-26",
+      "theme_ru": "Creative sprint — съёмки и контент",
+      "theme_en": "Creative sprint — shoots & content",
+      "day_label": "T-5",
+      "items": [
+        {"id": "campus_photo", "task_ru": "Фотосессия пустого кампуса ДО занятий (бассейн, labs, library, sports) — снимаем пока школа «идеально чистая»", "task_en": "Empty-campus photoshoot BEFORE classes (pool, labs, library, sports)", "owner": "Жигер", "bonus": true},
+        {"id": "hos_video", "task_ru": "Видео с Head of School: 30s (для ads) + 2min (для лендинга) — vision + message", "task_en": "Head-of-School video: 30s (ads) + 2min (landing) — vision + message", "owner": "Жигер + Кайсар", "bonus": false},
+        {"id": "day_in_life", "task_ru": "3 видео «Day in the life at WISC» — 15s / 30s / 60s", "task_en": "3 «Day in the life at WISC» videos — 15s / 30s / 60s", "owner": "Жигер", "bonus": false},
+        {"id": "meta_carousels", "task_ru": "5-8 Meta carousels: Cambridge / Facilities / Pathway / Trilingual / Discounts", "task_en": "5-8 Meta carousels: Cambridge / Facilities / Pathway / Trilingual / Discounts", "owner": "Жигер", "bonus": false},
+        {"id": "tiktok_vertical", "task_ru": "5 TikTok vertical креативов (native feel, не рекламный tone)", "task_en": "5 TikTok vertical creatives (native feel, not ad-tone)", "owner": "Жигер", "bonus": false},
+        {"id": "offer_creatives", "task_ru": "3 offer-креатива (Early Bird 15%, Sibling, Annual)", "task_en": "3 offer creatives (Early Bird 15%, Sibling, Annual)", "owner": "Жигер + Кайсар", "bonus": false}
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "theme_ru": "Sales scripts & email drip — готовим обработку лидов",
+      "theme_en": "Sales scripts & email drip — prepping lead handling",
+      "day_label": "T-4",
+      "items": [
+        {"id": "scripts_3lang", "task_ru": "Скрипты в 3 языках (EN/KH/CN): first reply / tour invite / post-tour / 7 objection handlers", "task_en": "Scripts in 3 langs (EN/KH/CN): first reply / tour invite / post-tour / 7 objection handlers", "owner": "Кайсар + ПК", "bonus": false},
+        {"id": "email_drip", "task_ru": "Email drip templates: D0, D1, D3, D7, D14 (в CRM или Zapier/n8n)", "task_en": "Email drip templates: D0, D1, D3, D7, D14 (in CRM or Zapier/n8n)", "owner": "Кайсар + Бакир", "bonus": true},
+        {"id": "landing_faq", "task_ru": "FAQ на лендинге — топ-15 вопросов с ответами на 3 языках", "task_en": "Landing FAQ — top-15 Q&A in 3 langs", "owner": "Кайсар + Бакир", "bonus": true},
+        {"id": "lead_scoring", "task_ru": "Lead scoring rubric: hot (WA <1h + P0-P2 grade) / warm / cold — автоматизировать в CRM", "task_en": "Lead scoring rubric: hot / warm / cold — automate in CRM", "owner": "Кайсар", "bonus": true}
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "theme_ru": "Admissions rehearsal — боевая репетиция",
+      "theme_en": "Admissions rehearsal — dry run",
+      "day_label": "T-3",
+      "items": [
+        {"id": "training_session", "task_ru": "Обучение Admissions Officer: 2 часа role-play по скриптам + 7 возражений", "task_en": "Admissions Officer training: 2h role-play + 7 objections", "owner": "Кайсар", "bonus": false},
+        {"id": "tour_experience", "task_ru": "Tour experience design: порядок комнат, кто встречает, снэки для детей, длительность (45 мин)", "task_en": "Tour experience: room order, greeter, kid snacks, duration (45 min)", "owner": "Кайсар + ПК", "bonus": true},
+        {"id": "calendly_slots", "task_ru": "Calendly: забить 20+ tour-слотов на май (рабочие часы + weekend)", "task_en": "Calendly: 20+ tour slots for May (weekdays + weekend)", "owner": "ПК", "bonus": true},
+        {"id": "admissions_forms", "task_ru": "Admission forms (digital + печатные) + entrance test материалы готовы", "task_en": "Admission forms (digital + printed) + entrance test materials", "owner": "Кайсар + ПК", "bonus": false},
+        {"id": "test_call", "task_ru": "Запись тестового звонка: качество связи, скрипт, тон — внутренний разбор", "task_en": "Test-call recording: audio, script, tone — internal review", "owner": "ПК", "bonus": true}
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "theme_ru": "Launch prep — загружаем рекламу",
+      "theme_en": "Launch prep — upload ads",
+      "day_label": "T-2",
+      "items": [
+        {"id": "ads_upload", "task_ru": "Ad creative upload: Meta (awareness + lead gen + conversion) + TikTok + Google (Search + YouTube)", "task_en": "Ad creative upload: Meta + TikTok + Google", "owner": "Бакир", "bonus": false},
+        {"id": "ab_plan", "task_ru": "A/B-план на неделю 1: 3 headlines × 3 креатива × 2 аудитории = 18 variants", "task_en": "Week-1 A/B plan: 3 headlines × 3 creatives × 2 audiences = 18 variants", "owner": "Бакир", "bonus": true},
+        {"id": "budget_caps", "task_ru": "Daily budget caps установлены (чтобы не слить $30K за 2 дня)", "task_en": "Daily budget caps set (so we don't burn $30K in 2 days)", "owner": "Бакир", "bonus": true},
+        {"id": "conversion_events", "task_ru": "Conversion events настроены и протестированы (lead / tour_booked / deposit)", "task_en": "Conversion events configured & tested (lead / tour_booked / deposit)", "owner": "Бакир", "bonus": true},
+        {"id": "sla_bot", "task_ru": "SLA-бот (Telegram/Slack) пингует если лид без ответа >5 мин", "task_en": "SLA bot (Telegram/Slack) pings on lead unanswered >5 min", "owner": "Бакир + ПК", "bonus": true}
+      ]
+    },
+    {
+      "date": "2026-04-30",
+      "theme_ru": "Pre-flight — soft launch и final check",
+      "theme_en": "Pre-flight — soft launch & final check",
+      "day_label": "T-1",
+      "items": [
+        {"id": "soft_launch", "task_ru": "Soft launch ~$500 на parent communities — проверяем что всё работает в проде", "task_en": "Soft launch ~$500 on parent communities — live check", "owner": "Бакир", "bonus": true},
+        {"id": "e2e_test", "task_ru": "End-to-end: клик ads → лендинг → форма → CRM → WA notification ПК → ответ <5 мин", "task_en": "E2E: ad click → landing → form → CRM → WA notify → PK reply <5 min", "owner": "Кайсар", "bonus": true},
+        {"id": "backup_plan", "task_ru": "Backup-план: если лиды не идут за 24 часа — что меняем (бюджет, аудитория, hook)", "task_en": "Backup plan: if no leads in 24h — what we change (budget, audience, hook)", "owner": "Кайсар", "bonus": true},
+        {"id": "team_rota", "task_ru": "Rota 07:00-19:00 на первые 2 недели — кто покрывает лиды вне рабочих часов", "task_en": "Rota 07:00-19:00 for first 2 weeks — who covers off-hours", "owner": "Кайсар", "bonus": true},
+        {"id": "press_release", "task_ru": "Press release для Khmer Times / Phnom Penh Post готов (под embargo)", "task_en": "Press release for Khmer Times / Phnom Penh Post ready (under embargo)", "owner": "Кайсар", "bonus": true}
+      ]
+    },
+    {
+      "date": "2026-05-01",
+      "theme_ru": "🚀 LAUNCH DAY",
+      "theme_en": "🚀 LAUNCH DAY",
+      "day_label": "D-0",
+      "items": [
+        {"id": "campaigns_live", "task_ru": "Publish: все кампании live, budget caps снимаются по плану", "task_en": "Publish: all campaigns live, budget caps per plan", "owner": "Бакир", "bonus": false},
+        {"id": "press_publish", "task_ru": "Press release опубликован в 2+ СМИ (Khmer Times / Phnom Penh Post)", "task_en": "Press release published in 2+ outlets (Khmer Times / Phnom Penh Post)", "owner": "Кайсар", "bonus": true},
+        {"id": "community_posts", "task_ru": "Посты в 5+ parent communities (Facebook groups, Telegram channels)", "task_en": "Posts in 5+ parent communities (FB groups, Telegram)", "owner": "Кайсар", "bonus": true},
+        {"id": "waitlist_email", "task_ru": "Email всем существующим контактам / parent waitlist", "task_en": "Email all existing contacts / parent waitlist", "owner": "Кайсар", "bonus": true},
+        {"id": "live_dashboard", "task_ru": "Live-monitoring dashboard открыт — следим в реальном времени", "task_en": "Live-monitoring dashboard open — real-time watch", "owner": "Кайсар + Бакир", "bonus": false},
+        {"id": "first_tour", "task_ru": "Первый tour забронирован и проведён (даже если «дружеский»)", "task_en": "First tour booked & conducted (even «friendly»)", "owner": "ПК", "bonus": true}
+      ]
+    }
+  ]
+}

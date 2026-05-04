@@ -1,0 +1,28 @@
+{
+  "_comment": "RACI: R=Responsible, A=Accountable, C=Consulted, I=Informed. Team columns are fixed; edit cell values only.",
+  "team": ["Ерболат", "Кайсар", "Айжан", "ПК (Admissions Officer)", "Бакир", "Жигер"],
+  "tasks": [
+    {"task_ru": "Стратегия маркетинга и KPI", "task_en": "Marketing strategy & KPIs", "raci": ["A", "R", "C", "I", "C", "I"]},
+    {"task_ru": "Бюджет digital-маркетинга", "task_en": "Digital marketing budget", "raci": ["A", "R", "C", "I", "C", "I"]},
+    {"task_ru": "Управление каналами (Meta/TikTok/Google)", "task_en": "Channel management (Meta/TikTok/Google)", "raci": ["I", "A", "I", "I", "R", "C"]},
+    {"task_ru": "Креативы (видео + статика)", "task_en": "Creatives (video + static)", "raci": ["I", "A", "C", "I", "C", "R"]},
+    {"task_ru": "Офферы и акции (Early Bird, Sibling)", "task_en": "Offers & promos (Early Bird, Sibling)", "raci": ["A", "R", "C", "I", "I", "C"]},
+    {"task_ru": "Локализация (Khmer/Chinese)", "task_en": "Localization (Khmer/Chinese)", "raci": ["I", "A", "R", "I", "C", "C"]},
+    {"task_ru": "Лендинг и трекинг", "task_en": "Landing page & tracking", "raci": ["I", "A", "C", "I", "R", "C"]},
+    {"task_ru": "Обработка входящих лидов", "task_en": "Inbound lead handling", "raci": ["I", "A", "C", "R", "I", "I"]},
+    {"task_ru": "Квалификация лидов", "task_en": "Lead qualification", "raci": ["I", "A", "C", "R", "I", "I"]},
+    {"task_ru": "Запись на туры (scheduling)", "task_en": "Tour scheduling", "raci": ["I", "A", "C", "R", "I", "I"]},
+    {"task_ru": "Проведение школьных туров", "task_en": "School tours", "raci": ["I", "A", "R", "R", "I", "I"]},
+    {"task_ru": "Follow-up после тура", "task_en": "Post-tour follow-up", "raci": ["I", "A", "C", "R", "I", "I"]},
+    {"task_ru": "Скрипты коммуникации (WA/TG)", "task_en": "Communication scripts (WA/TG)", "raci": ["I", "C", "R", "A", "I", "I"]},
+    {"task_ru": "Обучение Admissions Officer", "task_en": "Admissions Officer training", "raci": ["I", "A", "R", "I", "I", "I"]},
+    {"task_ru": "Secret shopping у конкурентов", "task_en": "Competitor secret shopping", "raci": ["I", "A", "R", "I", "I", "I"]},
+    {"task_ru": "Конкурентный анализ", "task_en": "Competitor analysis", "raci": ["I", "A", "R", "I", "C", "I"]},
+    {"task_ru": "CRM pipeline и отчётность", "task_en": "CRM pipeline & reporting", "raci": ["I", "A", "C", "R", "C", "I"]},
+    {"task_ru": "Еженедельная KPI-отчётность", "task_en": "Weekly KPI reporting", "raci": ["A", "R", "C", "C", "C", "I"]},
+    {"task_ru": "Партнёрства (preschools, кружки)", "task_en": "Partnerships (preschools, clubs)", "raci": ["I", "A", "R", "I", "I", "I"]},
+    {"task_ru": "Referral program", "task_en": "Referral program", "raci": ["I", "A", "R", "C", "C", "I"]},
+    {"task_ru": "Школьные ярмарки и события", "task_en": "School fairs & events", "raci": ["I", "A", "R", "C", "C", "C"]},
+    {"task_ru": "Финальное утверждение enrollments", "task_en": "Final enrollment approval", "raci": ["A", "R", "I", "C", "I", "I"]}
+  ]
+}

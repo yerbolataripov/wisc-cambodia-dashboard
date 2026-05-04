@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.so
+.Python
+build/
+dist/
+
+# Environments
+.env
+.env.*
+.venv/
+venv/
+ENV/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.idea/
+.vscode/
+
+# Streamlit / runtime
+*.log
+.streamlit/secrets.toml
+
+# Jupyter / cache
+.ipynb_checkpoints/
+.cache/
+.claude/
+docs/.DS_Store

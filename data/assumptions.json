@@ -1,0 +1,57 @@
+{
+  "school": {
+    "name": "WISC Cambodia",
+    "location": "Cambodia",
+    "grades": "1-12",
+    "curriculum": "Local Cambodian Standard",
+    "max_capacity": 600,
+    "projection_years": 5
+  },
+  "revenue": {
+    "tuition_per_year": 4000,
+    "tuition_growth_rate": 0.03,
+    "enrollment_fee_per_student": 300
+  },
+  "enrollment": {
+    "year_students": [180, 300, 440, 520, 600, 600, 600, 600, 600, 600],
+    "grade_1_4": [60, 120, 180, 200, 220, 220, 220, 220, 220, 220],
+    "grade_5_9": [75, 120, 160, 200, 220, 220, 220, 220, 220, 220],
+    "grade_10_11": [45, 60, 100, 120, 160, 160, 160, 160, 160, 160],
+    "retention_rate": 0.92
+  },
+  "expenses": {
+    "teacher_salary_annual": [216000, 300000, 416842, 492632, 507411, 522633, 538312, 554461, 571095, 588228],
+    "admin_salary_annual": [240000, 288000, 384000, 480000, 494400, 509232, 524509, 540244, 556452, 573145],
+    "salary_tax_pct": 0.05,
+    "building_maintenance_annual": [84000, 84000, 84000, 84000, 84000, 96000, 96000, 96000, 96000, 96000],
+    "operating_expenses_annual": [27000, 45000, 66000, 78000, 72000, 72000, 72000, 72000, 72000, 72000],
+    "marketing_annual": [54000, 94000, 114000, 114000, 114000, 114000, 114000, 114000, 114000, 114000],
+    "jsm_fee_pct": 0.10,
+    "jsm_fee_years": 5
+  },
+  "financial": {
+    "discount_rate": 0.10,
+    "inflation_rate": 0.03,
+    "tax_rate": 0.0
+  },
+  "partnership": {
+    "option": 2,
+    "phase1_split_sorphea": 1.0,
+    "phase2_split": 0.5,
+    "phase2_start_after_payback": true
+  },
+  "scenarios": {
+    "optimistic": {
+      "enrollment_multiplier": 1.10,
+      "expense_multiplier": 0.95
+    },
+    "base": {
+      "enrollment_multiplier": 1.0,
+      "expense_multiplier": 1.0
+    },
+    "pessimistic": {
+      "enrollment_multiplier": 0.80,
+      "expense_multiplier": 1.10
+    }
+  }
+}

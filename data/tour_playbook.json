@@ -1,0 +1,174 @@
+{
+  "_comment": "Campus tour playbook — 6-phase timeline + 'never do' list. Editable in Sales → Tour Playbook UI. Khmer (km) starts empty; use the auto-translate button in the editor to populate it from RU/EN.",
+  "timeline": [
+    {
+      "id": "p1_prep",
+      "color": "info",
+      "timing_ru": "День -2 до тура",
+      "timing_en": "Day -2 before tour",
+      "timing_km": "",
+      "phase_ru": "Подготовка",
+      "phase_en": "Preparation",
+      "phase_km": "",
+      "items_ru": [
+        "Подготовить персонализированную папку (имя ребёнка, класс, 1-2 особенности)",
+        "Уведомить учителя релевантного класса",
+        "Проверить что бассейн/лаборатории доступны для показа",
+        "Охрана/ресепшен знает о визите (имя + время)",
+        "Подготовить welcome drink (вода/чай/кофе + snacks для детей)"
+      ],
+      "items_en": [
+        "Prepare personalized folder (child's name, grade, 1-2 specifics)",
+        "Notify the teacher of the relevant grade",
+        "Verify pool/labs are accessible for walk-through",
+        "Security/reception knows about the visit (name + time)",
+        "Prepare welcome drinks (water/tea/coffee + snacks for kids)"
+      ],
+      "items_km": []
+    },
+    {
+      "id": "p2_greeting",
+      "color": "gold",
+      "timing_ru": "Минуты 0-5",
+      "timing_en": "Minutes 0-5",
+      "timing_km": "",
+      "phase_ru": "Встреча у ресепшена",
+      "phase_en": "Reception greeting",
+      "phase_km": "",
+      "items_ru": [
+        "Встретить по имени (родителя И ребёнка)",
+        "Обратиться к ребёнку на его уровне глаз, поздороваться",
+        "Предложить напиток + WiFi",
+        "Показать родителям комнату для ожидания"
+      ],
+      "items_en": [
+        "Greet by name (both parent AND child)",
+        "Address the child at their eye level, say hello",
+        "Offer a drink + WiFi",
+        "Show parents the waiting room"
+      ],
+      "items_km": []
+    },
+    {
+      "id": "p3_warmup",
+      "color": "warning",
+      "timing_ru": "Минуты 5-15",
+      "timing_en": "Minutes 5-15",
+      "timing_km": "",
+      "phase_ru": "Warm-up conversation (mini-discovery)",
+      "phase_en": "Warm-up conversation (mini-discovery)",
+      "phase_km": "",
+      "items_ru": [
+        "«Как давно в Пномпене?» (expat/local/returning)",
+        "«Какая сейчас школа? Что нравится / не нравится?» (конкуренты + триггеры)",
+        "«Что для вас самое важное в школе для [имя ребёнка]?» (ценности)",
+        "«Что вы знаете о WISC уже?» (уровень awareness)",
+        "⚠️ Задавать естественно, не как анкету"
+      ],
+      "items_en": [
+        "«How long have you been in Phnom Penh?» (expat/local/returning)",
+        "«What school now? What do you like / dislike?» (competitors + triggers)",
+        "«What's most important in a school for [child's name]?» (values)",
+        "«What do you know about WISC already?» (awareness level)",
+        "⚠️ Ask naturally, not like a survey"
+      ],
+      "items_km": []
+    },
+    {
+      "id": "p4_walkthrough",
+      "color": "primary",
+      "timing_ru": "Минуты 15-35",
+      "timing_en": "Minutes 15-35",
+      "timing_km": "",
+      "phase_ru": "Walk-through — эмоциональный маршрут",
+      "phase_en": "Walk-through — emotional route",
+      "phase_km": "",
+      "items_ru": [
+        "1. Classroom релевантного класса → «вот где будет [имя ребёнка]»",
+        "2. Library → reading program",
+        "3. Science lab → hands-on experiments каждую неделю",
+        "4. Art / Music room → каждый ребёнок развивается творчески",
+        "5. Swimming pool → почти всегда wow-момент",
+        "6. Sports field → extracurriculars",
+        "7. Dining hall → safety & hygiene",
+        "🎯 Рассказывать ИСТОРИИ не факты. Подключать ребёнка. НЕ говорить про деньги!"
+      ],
+      "items_en": [
+        "1. Classroom of the relevant grade → «this is where [child's name] will be»",
+        "2. Library → reading program",
+        "3. Science lab → hands-on experiments every week",
+        "4. Art / Music room → every child develops creatively",
+        "5. Swimming pool → almost always the wow moment",
+        "6. Sports field → extracurriculars",
+        "7. Dining hall → safety & hygiene",
+        "🎯 Tell STORIES, not facts. Engage the child. DO NOT talk money here!"
+      ],
+      "items_km": []
+    },
+    {
+      "id": "p5_sitdown",
+      "color": "info",
+      "timing_ru": "Минуты 35-50",
+      "timing_en": "Minutes 35-50",
+      "timing_km": "",
+      "phase_ru": "Sit-down (кофе и вопросы)",
+      "phase_en": "Sit-down (coffee and questions)",
+      "phase_km": "",
+      "items_ru": [
+        "Вынести папку с fee structure",
+        "Показать discount calculator (Product Deep-Dive → Pricing cheatsheet)",
+        "Отвечать без защитной позиции",
+        "Не знаешь ответ — «Отличный вопрос, уточню у директора и напишу сегодня вечером»"
+      ],
+      "items_en": [
+        "Bring out the fee structure folder",
+        "Show the discount calculator (Product Deep-Dive → Pricing cheatsheet)",
+        "Answer without getting defensive",
+        "Don't know? «Great question, I'll check with the director and write you tonight»"
+      ],
+      "items_km": []
+    },
+    {
+      "id": "p6_close",
+      "color": "success",
+      "timing_ru": "Минуты 50-60",
+      "timing_en": "Minutes 50-60",
+      "timing_km": "",
+      "phase_ru": "Close & Next Steps",
+      "phase_en": "Close & Next Steps",
+      "phase_km": "",
+      "items_ru": [
+        "«Что думаете после тура?»",
+        "Если позитив → assumptive close: «Отправлю application сейчас, entrance test на [день]»",
+        "Если hesitation → «Какой самый важный нерешённый вопрос? Сфокусируемся на нём»",
+        "Если «подумаем» → Script 9 через 3 дня + Stage «Tour Done, Nurturing» в CRM",
+        "❗ Обязательно close на КОНКРЕТНЫЙ next step"
+      ],
+      "items_en": [
+        "«What are your thoughts after the tour?»",
+        "If positive → assumptive close: «I'll send the application now, entrance test on [day]»",
+        "If hesitation → «What's the biggest remaining question? Let's focus on that»",
+        "If «we'll think» → Script 9 in 3 days + stage «Tour Done, Nurturing» in CRM",
+        "❗ ALWAYS close on a CONCRETE next step"
+      ],
+      "items_km": []
+    }
+  ],
+  "never_ru": [
+    "Плохо говорить про конкурентов",
+    "Обещать то, чего нет",
+    "Оставлять ребёнка скучать пока говоришь с родителем",
+    "Рассказывать про цену в первые 30 минут",
+    "Отпускать родителей без чёткого next step",
+    "Торопиться на следующую встречу — родитель это чувствует"
+  ],
+  "never_en": [
+    "Speak badly about competitors",
+    "Promise something we don't have",
+    "Let the child get bored while talking to parents",
+    "Talk about price in the first 30 minutes",
+    "Let parents leave without a clear next step",
+    "Rush to the next meeting — the parent feels it"
+  ],
+  "never_km": []
+}

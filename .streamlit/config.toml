@@ -1,0 +1,11 @@
+[theme]
+# WISC brand palette — navy shield + champagne gold trefoil
+base = "dark"
+primaryColor = "#c9a95c"
+backgroundColor = "#0a1324"
+secondaryBackgroundColor = "#162339"
+textColor = "#f2ede0"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
