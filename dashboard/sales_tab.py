@@ -502,10 +502,12 @@ SALES_LANG = {
 # ============================================================
 # LOADERS
 # ============================================================
-@st.cache_data
+from dashboard.datastore import load_json as _load_json_backend, save_json as _save_json_backend
+
+
 def _load_json(filename: str) -> dict:
-    with open(DATA_DIR / filename, "r", encoding="utf-8") as f:
-        return json.load(f)
+    """Backend-aware loader (Gist on prod, local files in dev)."""
+    return _load_json_backend(filename)
 
 
 @st.cache_data
@@ -517,10 +519,8 @@ def _load_csv(filename: str) -> pd.DataFrame:
 # GENERIC TRILINGUAL EDITOR (auto-translate + save + revert)
 # ============================================================
 def _save_json_file(filename: str, data: dict):
-    """Atomic-ish write of a JSON file in data/."""
-    path = DATA_DIR / filename
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    """Backend-aware writer (Gist on prod, local files in dev)."""
+    _save_json_backend(filename, data)
 
 
 def _cb_translate_block(prefix: str, src_code: str):
@@ -912,13 +912,10 @@ def _section_response(L: dict, lang: str):
 # SECTION 3.4 — MESSAGE SCRIPTS LIBRARY (editable + auto-translate)
 # ============================================================
 def _save_all_scripts_to_json(scripts_payload: list):
-    """Persist the full scripts list back to data/sales_scripts.json (preserves _comment + auto_reply_off_hours)."""
-    path = DATA_DIR / "sales_scripts.json"
-    with open(path, "r", encoding="utf-8") as f:
-        data = json.load(f)
+    """Persist the full scripts list back to sales_scripts.json (Gist or local)."""
+    data = _load_json("sales_scripts.json")
     data["scripts"] = scripts_payload
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    _save_json_file("sales_scripts.json", data)
 
 
 def _cb_translate_script(sid: str, src_code: str):

@@ -23,6 +23,7 @@ from agents.risk_agent import RiskAgent
 from exports.powerbi_export import PowerBIExporter
 from dashboard import marketing_tab
 from dashboard import sales_tab
+from dashboard.datastore import backend as _datastore_backend
 
 st.set_page_config(page_title="WISC", page_icon="🏫", layout="wide")
 
@@ -1356,6 +1357,14 @@ LANG["km"] = _build_km_lang(LANG["en"], _KM_OVERRIDES)
 
 # --- Sidebar: Language & Years FIRST ---
 st.sidebar.header("Settings / Настройки / ការកំណត់")
+
+# Backend indicator (Gist = persistent across redeploys, Local = per-container only)
+_be = _datastore_backend()
+if _be == "gist":
+    st.sidebar.success("🟢 Gist storage · правки сохраняются", icon="💾")
+else:
+    st.sidebar.warning("🟡 Local files · правки только в этой сессии", icon="💾")
+
 lang_choice = st.sidebar.radio(
     "🌐 Language / Язык / ភាសា",
     ["Русский", "English", "ភាសាខ្មែរ"],

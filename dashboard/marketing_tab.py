@@ -881,10 +881,12 @@ MKT_LANG = {
 # ============================================================
 # DATA LOADERS
 # ============================================================
-@st.cache_data
+from dashboard.datastore import load_json as _load_json_backend
+
+
 def _load_json(filename: str) -> dict:
-    with open(DATA_DIR / filename, "r", encoding="utf-8") as f:
-        return json.load(f)
+    """Backend-aware loader (Gist on prod, local files in dev)."""
+    return _load_json_backend(filename)
 
 
 @st.cache_data
